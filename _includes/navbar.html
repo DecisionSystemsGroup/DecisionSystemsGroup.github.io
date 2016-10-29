@@ -1,4 +1,5 @@
 <div id="dsg_nav" class="container-fluid">
+	{{page.url}}
 	<div id="dsg_header">
 		<div class="container">
 			<img class="center-block img-responsive"
@@ -25,16 +26,16 @@
 						<a href="{{ site.url }}">Home</a>
 					</li>
 					<li {% if page.url == 'news' %} class="active" {% endif %}>
-						<a href="{{ site.url }}news">News</a>
+						<a href="{{ site.url }}/news">News</a>
 					</li>
 					<li {% if page.url == 'projects' %} class="active" {% endif %}>
-						<a href="{{ site.url }}projects">Projects</a>
+						<a href="{{ site.url }}/projects">Projects</a>
 					</li>
 					<li {% if page.url == 'team' %} class="active" {% endif %}>
-						<a href="{{ site.url }}team">Team</a>
+						<a href="{{ site.url }}/team">Team</a>
 					</li>
 					<li {% if page.url == 'contact' %} class="active" {% endif %}>
-						<a href="{{ site.url }}contact">Contact</a>
+						<a href="{{ site.url }}/contact">Contact</a>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
