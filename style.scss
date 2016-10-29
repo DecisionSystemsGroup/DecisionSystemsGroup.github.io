@@ -17,7 +17,7 @@
 }
 #dsg_info{
 	#discover_projects{
-		background-image: url('../images/discover_projects.jpg');
+		background-image: url('images/discover_projects.jpg');
 	}
 	.dsg_box{
 		background-size: 100% auto;
@@ -33,10 +33,10 @@
 		}
 	}
 	#meet_the_team{
-		background-image: url('../images/meet_the_team.jpg');
+		background-image: url('images/meet_the_team.jpg');
 	}
 	#whats_new{
-		background-image: url('../images/whats_new.jpg');
+		background-image: url('images/whats_new.jpg');
 	}
 }
 #dsg_social{
@@ -88,7 +88,7 @@
 		font-size: 35px;
 	}
 }
-#footer{
+footer{
 	margin-top: 40px;
 	.logo{
 		height: 64px;
