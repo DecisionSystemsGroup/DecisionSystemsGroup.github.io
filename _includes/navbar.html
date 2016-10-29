@@ -21,20 +21,20 @@
 
 			<div class="collapse navbar-collapse" id="dsg_navbar_collapse">
 				<ul class="nav navbar-nav">
-					<li {% if site.url == '/' %} class="active" {% endif %}>
-						<a href="{{ site.baseurl }}">Home</a>
+					<li {% if page.url == '/' %} class="active" {% endif %}>
+						<a href="{{ site.url }}">Home</a>
 					</li>
-					<li {% if site.url == '/news' %} class="active" {% endif %}>
-						<a href="{{ site.baseurl }}/news">News</a>
+					<li {% if page.url == '/news' %} class="active" {% endif %}>
+						<a href="{{ site.url }}/news">News</a>
 					</li>
-					<li {% if site.url == '/projects' %} class="active" {% endif %}>
-						<a href="{{ site.baseurl }}/projects">Projects</a>
+					<li {% if page.url == '/projects' %} class="active" {% endif %}>
+						<a href="{{ site.url }}/projects">Projects</a>
 					</li>
-					<li {% if site.url == '/team' %} class="active" {% endif %}>
-						<a href="{{ site.baseurl }}/team">Team</a>
+					<li {% if page.url == '/team' %} class="active" {% endif %}>
+						<a href="{{ site.url }}/team">Team</a>
 					</li>
-					<li {% if site.url == '/contact' %} class="active" {% endif %}>
-						<a href="{{ site.baseurl }}/contact">Contact</a>
+					<li {% if page.url == '/contact' %} class="active" {% endif %}>
+						<a href="{{ site.url }}/contact">Contact</a>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
