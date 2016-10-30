@@ -4,12 +4,17 @@ title: DSG News
 ---
 <div class="container">
 	{% for post in site.posts %}
-		<article class="row">
-			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-			<div class="entry">{{ post.excerpt }}</div>
-			<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
-				Read More
-			</a>
-		</article>
+		<div class="row text-center" style="background-image: url('{{site.thumb}}')">
+			<div class="col-md-8 col-md-offset-2">
+				<p>{{ post.date | date: "%B %e, %Y" }}</p>
+				<h1>{{ post.title }}</h1>
+				<h4>by {{ post.author }}</h4>
+				<p class="text-left">{{ post.excerpt }}</p>
+				<a class="btn btn-primary"
+					href="{{ site.baseurl }}{{ post.url }}">
+					Read More
+				</a>
+			</div>
+		</div>
 	{% endfor %}
 </div>
