@@ -100,6 +100,15 @@
 		}
 	}
 }
+#dsg_team{
+	.member{
+		background-position: center;
+		background-size: 100% auto;
+		@media (min-width: $screen-md-min) {
+			min-height: 256px
+		}
+	}
+}
 #dsg_social{
 	font-size: 22px;
 	.btn-fb{
