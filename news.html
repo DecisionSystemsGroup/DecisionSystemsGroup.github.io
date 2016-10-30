@@ -4,7 +4,7 @@ title: DSG News
 ---
 <div class="container">
 	{% for post in site.posts %}
-		<div class="row text-center" style="background-image: url('{{site.thumb}}')">
+		<div class="row text-center" style="background-image: url('{{post.thumb}}')">
 			<div class="col-md-8 col-md-offset-2">
 				<p>{{ post.date | date: "%B %e, %Y" }}</p>
 				<h1>{{ post.title }}</h1>
