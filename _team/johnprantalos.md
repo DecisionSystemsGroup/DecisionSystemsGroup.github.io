@@ -1,6 +1,6 @@
 ---
 layout: member
-name: John Prantalos
+title: John Prantalos
 nickname: Pandorian
 bio: Software Engineer, cyclist and wannabe data analyst. From Greece with ❤
 avatar: http://i.imgur.com/oxyhmgh.jpg

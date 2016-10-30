@@ -3,7 +3,7 @@ layout: public
 ---
 <div id="dsg_page_head" class="container-fluid">
 	<div class="container">
-		<h1>{{ page.name }}</h1>
+		<h1>{{ page.title }}</h1>
 	</div>
 </div>
 <div id="{{ page.url }}" class="container">
@@ -13,7 +13,7 @@ layout: public
 				src="{{ page.avatar }}" alt="avatar" />
 		</div>
 		<div class="col-md-6">
-			<h2>{{ page.name }}</h2>
+			<h2>{{ page.title }}</h2>
 			{% if page.nickname %}
 				<h4>a.k.a {{ page.nickname}}</h4>
 			{% endif %}
