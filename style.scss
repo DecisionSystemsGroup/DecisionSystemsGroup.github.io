@@ -78,14 +78,21 @@
 #dsg_post{
 	background-position: center;
 	margin: 25px 0px;
-	.content{
-		font-size: 20px;
-	}
+	font-size: 20px;
 	.title{
 		font-weight: 700;
 	}
+	.info{
+		font-size: 22px;
+		font-weight: 700;
+		font-style: italic;
+	}
 	#dsg_tags{
 		font-size: 12px;
+		p{
+			font-size: 14px;
+			font-weight: 700;
+		}
 	}
 }
 #dsg_social{
