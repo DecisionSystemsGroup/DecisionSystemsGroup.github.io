@@ -33,8 +33,11 @@ url: http://r.dsg.teiste.gr
 baseurl: ""
 
 collections:
-- projects
+  projects:
+    output: true
+    permalink: /projects/:path/
   team:
+    output: true
     permalink: /team/:path/
 #
 # !! You don't need to change any of the configuration flags below !!
