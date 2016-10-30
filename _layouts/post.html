@@ -4,16 +4,18 @@ layout: public
 <div id="{{ page.url }}" class="container">
 	<article id="dsg_post" class="row">
 		<img class="img-responsive" src="{{ page.thumb }}" alt="post thumb" />
-		<h1 class="title">{{ page.title }}</h1>
-		<p>{{ content }}</p>
-		<div class="info">
-			Written on {{ page.date | date: "%B %e, %Y" }},
-			by {{ page.author }}
-		</div>
-		<div id="dsg_tags" class="row text-muted">
-			{% for tag in page.tags %}
-				<span>{{ tag }}</span>,
-			{% endfor %}
+		<div class="col-md-8 col-md-offset-2">
+			<h1 class="title">{{ page.title }}</h1>
+			<p class="content">{{ content }}</p>
+			<div class="info">
+				Written on {{ page.date | date: "%B %e, %Y" }},
+				by {{ page.author }}
+			</div>
+			<div id="dsg_tags" class="row text-muted">
+				{% for tag in page.tags %}
+					<span>{{ tag }}</span>,
+				{% endfor %}
+			</div>
 		</div>
 	</article>
 	<div id="dsg_comments" class="row">
