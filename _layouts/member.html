@@ -8,6 +8,84 @@ layout: public
 </div>
 <div id="{{ page.url }}" class="container">
 	<div class="row">
-		<img src="{{ page.avatar }}" alt="avatar" />
+		<div class="col-md-2">
+			<img class="img-responsive"
+				src="{{ page.avatar }}" alt="avatar" />
+		</div>
+		<div class="col-md-10">
+			<h2>{{ page.name }}</h2>
+			{% if page.nickname %}
+				<h4>a.k.a {{ page.nickname}}</h4>
+			{% endif %}
+			{% if page.bio %}
+				<h4>{{ page.bio}}</h4>
+			{% endif %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<ul id="dsg_social_list">
+				{% if page.facebook %}
+					<li><a href="{{ page.facebook }}">
+						<i class="fa fa-facebook-square" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.twitter %}
+					<li><a href="{{ page.twitter }}">
+						<i class="fa fa-twitter-square" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.linkedin %}
+					<li><a href="{{ page.linkedin }}">
+						<i class="fa fa-linkedin-square" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.github %}
+					<li><a href="{{ page.github }}">
+						<i class="fa fa-github-square" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.gitlab %}
+					<li><a href="{{ page.gitlab }}">
+						<i class="fa fa-gitlab" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.stackoverflow %}
+					<li><a href="{{ page.stackoverflow }}">
+						<i class="fa fa-stack-overflow" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.googleplus %}
+					<li><a href="{{ page.googleplus }}">
+						<i class="fa fa-google-plus-square" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.behance %}
+					<li><a href="{{ page.behance }}">
+						<i class="fa fa-behance-square" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.instagram %}
+					<li><a href="{{ page.instagram }}">
+						<i class="fa fa-instagram" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.flickr %}
+					<li><a href="{{ page.flickr }}">
+						<i class="fa fa-flickr" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+			</ul>
+		</div>
 	</div>
 </div>
