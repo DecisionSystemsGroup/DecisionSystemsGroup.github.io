@@ -7,13 +7,13 @@ title: The DSG Team
 		{% for member in site.team %}
 			<div class="col-md-3 member"
 				style="background-image:url('{{member.avatar}}')">
-
-				<h2>{{ member.title }}</h2>
-				<a class="btn btn-primary"
-					href="{{ site.baseurl }}{{ member.url }}">
-					More
-				</a>
-
+				<div class="info">
+					<h2>{{ member.title }}</h2>
+					<a class="btn btn-primary"
+						href="{{ site.baseurl }}{{ member.url }}">
+						More
+					</a>
+				</div>
 			</div>
 		{% endfor %}
 </div>

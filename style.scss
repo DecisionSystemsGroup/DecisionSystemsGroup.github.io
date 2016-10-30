@@ -105,10 +105,14 @@
 		background-position: center;
 		background-size: 100% auto;
 		@media (min-width: $screen-md-min) {
-			min-height: 242px
+			min-height: 242.5px
 		}
 		@media (min-width: $screen-lg-min) {
-			min-height: 295px
+			min-height: 292.5px
+		}
+		.info{
+			background-color: rgba(35, 35, 35, 1);
+			color: rgba(230, 230, 230, 1);
 		}
 	}
 }
