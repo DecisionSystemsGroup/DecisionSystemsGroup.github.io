@@ -2,10 +2,10 @@
 layout: page
 title: DSG News
 ---
-<div class="container">
+<div id="dsg_news" class="container">
 	{% for post in site.posts %}
-		<div class="row text-center" style="background-image: url('{{post.thumb}}')">
-			<div class="col-md-8 col-md-offset-2">
+		<article class="row text-center" style="background-image: url('{{post.thumb}}')">
+			<div class="info col-md-8 col-md-offset-2">
 				<p>{{ post.date | date: "%B %e, %Y" }}</p>
 				<h1>{{ post.title }}</h1>
 				<h4>by {{ post.author }}</h4>
@@ -15,6 +15,6 @@ title: DSG News
 					Read More
 				</a>
 			</div>
-		</div>
+		</article>
 	{% endfor %}
 </div>

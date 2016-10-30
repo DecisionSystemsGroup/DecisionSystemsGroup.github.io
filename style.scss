@@ -40,6 +40,16 @@
 		background-image: url('images/whats_new.jpg');
 	}
 }
+#dsg_news{
+	article{
+		background-position: center;
+		.info{
+			background-color: rgba(230,230,230,0.8);
+			color: rgba(33,33,33,1);
+			padding: 25px;
+		}
+	}
+}
 #dsg_page_head{
 	background-color: rgba(35, 35, 35, 1);
 	color: rgba(230, 230, 230, 1);
