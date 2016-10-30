@@ -20,6 +20,9 @@
 
 	</head>
 	<body>
+		{% if site.global_alert %}
+		<p class="bg-warning">{{ site.global_alert }}</p>
+		{% endif %}
 		{% include navbar.html %}
 		{{ content }}
 		{% include footer.html %}
