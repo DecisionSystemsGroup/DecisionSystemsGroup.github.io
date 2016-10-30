@@ -105,7 +105,10 @@
 		background-position: center;
 		background-size: 100% auto;
 		@media (min-width: $screen-md-min) {
-			min-height: 256px
+			min-height: 242px
+		}
+		@media (min-width: $screen-lg-min) {
+			min-height: 295px
 		}
 	}
 }
