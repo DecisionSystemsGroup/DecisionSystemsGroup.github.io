@@ -1,17 +1,22 @@
 ---
-layout: default
+layout: public
 ---
-
-<article class="post">
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
+<div id="{{ page.url }}" class="container">
+	<article id="dsg_post" class="row">
+		<img class="img-responsive" src="{{ page.thumb }}" alt="post thumb" />
+		<h1 class="title">{{ page.title }}</h1>
+		<p>{{ content }}</p>
+		<div class="info">
+			Written on {{ page.date | date: "%B %e, %Y" }},
+			by {{ page.author }}
+		</div>
+		<div id="dsg_tags" class="row text-muted">
+			{% for tag in page.tags %}
+				<span>{{ tag }}</span>,
+			{% endfor %}
+		</div>
+	</article>
+	<div id="dsg_comments" class="row">
+		{% include disqus.html %}
+	</div>
+</div>
