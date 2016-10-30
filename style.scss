@@ -132,9 +132,20 @@
 	}
 }
 #dsg_social_list{
+	font-size: 30px;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	li{
+		display: inline;
+		a, a:link, a:active, a:visited{
+			color: rgba(33, 33, 33, 1);
+			text-decoration: none;
+		}
+		a:hover{
+			color: darken(rgba(33, 33, 33, 1), 10%);
+		}
+	}
 }
 #dsg_welcome{
 	background-color: rgba(35, 35, 35, 1);
