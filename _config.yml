@@ -34,6 +34,8 @@ baseurl: ""
 
 collections:
 - projects
+- team
+  permalink: /team/:path/
 #
 # !! You don't need to change any of the configuration flags below !!
 #
