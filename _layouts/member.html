@@ -8,11 +8,11 @@ layout: public
 </div>
 <div id="{{ page.url }}" class="container">
 	<div class="row">
-		<div class="col-md-2">
+		<div class="col-md-2 col-md-offset-2">
 			<img class="img-responsive"
 				src="{{ page.avatar }}" alt="avatar" />
 		</div>
-		<div class="col-md-10">
+		<div class="col-md-6">
 			<h2>{{ page.name }}</h2>
 			{% if page.nickname %}
 				<h4>a.k.a {{ page.nickname}}</h4>
@@ -20,10 +20,6 @@ layout: public
 			{% if page.bio %}
 				<h4>{{ page.bio}}</h4>
 			{% endif %}
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
 			<ul id="dsg_social_list">
 				{% if page.facebook %}
 					<li><a href="{{ page.facebook }}">
@@ -86,6 +82,11 @@ layout: public
 					</a></li>
 				{% endif %}
 			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+
 		</div>
 	</div>
 </div>
