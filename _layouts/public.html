@@ -21,7 +21,9 @@
 	</head>
 	<body>
 		{% if site.global_alert %}
-		<p class="bg-warning">{{ site.global_alert }}</p>
+			<div class="alert alert-warning text-center" role="alert">
+				{{ site.global_alert }}
+			</div>
 		{% endif %}
 		{% include navbar.html %}
 		{{ content }}
