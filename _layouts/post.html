@@ -12,10 +12,12 @@ layout: public
 				by {{ page.author }}
 			</div>
 			<div id="dsg_tags" class="row text-muted">
-				<p>Tags</p>
-				{% for tag in page.tags %}
-					<span>{{ tag }}</span>,
-				{% endfor %}
+				<div class="col-md-8 col-md-offset-2">
+					<span>Tags</span>
+					{% for tag in page.tags %}
+						{{ tag }},
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 	</article>
