@@ -131,6 +131,11 @@
 		color: rgba(230, 230, 230, 1);
 	}
 }
+#dsg_social_list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 #dsg_welcome{
 	background-color: rgba(35, 35, 35, 1);
 	font-size: 18px;
@@ -156,4 +161,3 @@ footer{
 		opacity: 0.8;
 	}
 }
-.dsg_social_list
