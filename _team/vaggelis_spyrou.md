@@ -6,7 +6,7 @@ title: Vaggelis Spyrou
 nickname:
 bio:
 department: Computer Engineering
-avatar:
+avatar: http://i.imgur.com/dJKZA4z.jpg
 projects: []
 website: http://users.teilam.gr/~vspyrou/
 email: vaggelis.spyrou@gmail.com

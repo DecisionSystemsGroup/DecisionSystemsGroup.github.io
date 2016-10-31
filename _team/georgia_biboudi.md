@@ -6,7 +6,7 @@ title: Georgia Biboudi
 nickname:
 bio:
 department: Computer Engineering
-avatar:
+avatar: http://i.imgur.com/97564N6.jpg
 projects: []
 website:
 email: gbiboudi@teilam.gr

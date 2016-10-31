@@ -6,7 +6,7 @@ title: Phillip Dinenis
 nickname:
 bio:
 department: Computer Engineering
-avatar:
+avatar: http://i.imgur.com/SdDGrZP.jpg
 projects: [fingerprint_recognition]
 website:
 email:

@@ -6,7 +6,7 @@ title: Alexandros Sofianos
 nickname:
 bio:
 department: Computer Engineering
-avatar:
+avatar: http://i.imgur.com/dVyhQ0A.png
 projects: []
 website:
 email: metaxata07@gmail.com

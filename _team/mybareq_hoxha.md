@@ -6,7 +6,7 @@ title: Mybareq Hoxha
 nickname:
 bio:
 department: Computer Engineering
-avatar:
+avatar: http://i.imgur.com/BiNraLu.jpg
 projects: [pattern_tracking_ip_camera]
 website:
 email: m_hoxha@outlook.com

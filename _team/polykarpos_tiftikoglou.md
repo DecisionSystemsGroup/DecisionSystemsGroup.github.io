@@ -6,7 +6,7 @@ title: Polykarpos Tiftikoglou
 nickname:
 bio:
 department: Computer Engineering
-avatar:
+avatar: http://i.imgur.com/J0eRhen.jpg
 projects: []
 website: https://ello.co/polykarpos
 email: ptiftikoglou@gmail.com
