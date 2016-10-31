@@ -1,5 +1,7 @@
 ---
 layout: member
+type: student
+status: active
 title: John Prantalos
 nickname: Pandorian
 bio: Software Engineer, cyclist and wannabe data analyst. From Greece with ❤

@@ -1,5 +1,7 @@
 ---
 layout: member
+type: professor
+status: active
 title: Stavros A. Karkanis
 nickname:
 bio:

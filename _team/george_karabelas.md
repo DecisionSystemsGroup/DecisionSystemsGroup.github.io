@@ -1,5 +1,7 @@
 ---
 layout: member
+type: student
+status: active
 title: George Karabelas
 nickname:
 bio:

@@ -1,5 +1,7 @@
 ---
 layout: member
+type: student
+status: legacy
 title: Giorgos Xatzis
 nickname:
 bio:

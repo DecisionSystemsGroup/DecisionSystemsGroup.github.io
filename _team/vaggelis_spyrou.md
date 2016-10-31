@@ -1,5 +1,7 @@
 ---
 layout: member
+type: professor
+status: active
 title: Vaggelis Spyrou
 nickname:
 bio:

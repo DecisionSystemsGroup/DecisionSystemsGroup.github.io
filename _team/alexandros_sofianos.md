@@ -1,5 +1,7 @@
 ---
 layout: member
+type: student
+status: active
 title: Alexandros Sofianos
 nickname:
 bio:

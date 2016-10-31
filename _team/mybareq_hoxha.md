@@ -1,5 +1,7 @@
 ---
 layout: member
+type: student
+status: active
 title: Mybareq Hoxha
 nickname:
 bio:

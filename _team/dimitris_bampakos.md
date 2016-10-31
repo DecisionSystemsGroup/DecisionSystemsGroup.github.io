@@ -1,5 +1,7 @@
 ---
 layout: member
+type: student
+status: legacy
 title: Dimitris Barmpakos
 nickname:
 bio:
@@ -12,7 +14,7 @@ skype:
 facebook:
 twitter:
 linkedin: http://linkedin.com/dimitriosbarmpakos
-github: 
+github:
 gitlab:
 stackoverflow:
 google_plus:
