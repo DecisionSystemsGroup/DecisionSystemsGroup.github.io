@@ -26,7 +26,11 @@ title: The DSG Team
 				</div>
 			{% endif %}
 		{% endfor %}
+	</div>
+	<div class="row">
 		<h2>Students</h2>
+	</div>
+	<div class="row">
 		<h3>Currently Active</h3>
 		{% for member in site.team %}
 			{% if member.type == 'student' %}
@@ -51,6 +55,8 @@ title: The DSG Team
 				{% endif %}
 			{% endif %}
 		{% endfor %}
+	</div>
+	<div class="row">	
 		<h3>Old members</h3>
 		{% for member in site.team %}
 			{% if member.type == 'student' %}
