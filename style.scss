@@ -102,9 +102,6 @@
 }
 #dsg_team{
 	.member{
-		background-position: center;
-		background-size: 100% auto;
-		background-repeat: no-repeat;
 		padding: 0px;
 		@media (min-width: $screen-xs-min) {
 			min-height: 370.5px
@@ -117,6 +114,23 @@
 		}
 		@media (min-width: $screen-lg-min) {
 			min-height: 292.5px
+		}
+		.avatar{
+			background-position: center;
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			@media (min-width: $screen-xs-min) {
+				min-height: 370.5px
+			}
+			@media (min-width: $screen-sm-min) {
+				min-height: 250px
+			}
+			@media (min-width: $screen-md-min) {
+				min-height: 242.5px
+			}
+			@media (min-width: $screen-lg-min) {
+				min-height: 292.5px
+			}
 		}
 		.info{
 			background-color: rgba(34, 34, 34, 0.95);
