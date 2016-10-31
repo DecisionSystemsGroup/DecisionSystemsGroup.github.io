@@ -104,6 +104,7 @@
 	.member{
 		background-position: center;
 		background-size: 100% auto;
+		padding: 0px;
 		@media (min-width: $screen-md-min) {
 			min-height: 242.5px
 		}
@@ -113,6 +114,14 @@
 		.info{
 			background-color: rgba(35, 35, 35, 1);
 			color: rgba(230, 230, 230, 1);
+			bottom: 0px;
+			display: block;
+			position: absolute;
+			width: 100%;
+			h2{
+				text-align: center;
+				padding-bottom: 10px;
+			}
 		}
 	}
 }
