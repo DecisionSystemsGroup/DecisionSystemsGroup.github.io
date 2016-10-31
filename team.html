@@ -5,19 +5,21 @@ title: The DSG Team
 <div id="dsg_team" class="container">
 	<div class="row">
 		{% for member in site.team %}
-			<div class="col-md-3 col-sm-4 col-xs-6 member"
-				{% if member.avatar %}
-					style="background-image:url('{{member.avatar}}')"
-				{% else %}
-					style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
-				{% endif %}
-			>
-				<div class="info">
-					<h2>{{ member.title }}</h2>
-					<a class="btn btn-primary btn-block"
-						href="{{ site.baseurl }}{{ member.url }}">
-						More
-					</a>
+			<div class="col-md-3 col-sm-4 col-xs-6 member">
+				<div class="avatar"
+					{% if member.avatar %}
+						style="background-image:url('{{member.avatar}}')"
+					{% else %}
+						style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
+					{% endif %}
+				>
+					<div class="info">
+						<h2>{{ member.title }}</h2>
+						<a class="btn btn-primary btn-block"
+							href="{{ site.baseurl }}{{ member.url }}">
+							More
+						</a>
+					</div>
 				</div>
 			</div>
 		{% endfor %}
