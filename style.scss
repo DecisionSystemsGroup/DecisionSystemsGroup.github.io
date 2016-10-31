@@ -104,6 +104,7 @@
 	.member{
 		background-position: center;
 		background-size: 100% auto;
+		background-repeat: no-repeat;
 		padding: 0px;
 		@media (min-width: $screen-xs-min) {
 			min-height: 370.5px
