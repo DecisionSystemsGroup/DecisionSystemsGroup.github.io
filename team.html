@@ -4,24 +4,76 @@ title: The DSG Team
 ---
 <div id="dsg_team" class="container">
 	<div class="row">
+		<h2>Professors</h2>
 		{% for member in site.team %}
-			<div class="col-md-3 col-sm-4 col-xs-6 member">
-				<div class="avatar"
-					{% if member.avatar %}
-						style="background-image:url('{{member.avatar}}')"
-					{% else %}
-						style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
-					{% endif %}
-				>
+			{% if member.type == 'professor' %}
+				<div class="col-md-3 col-sm-4 col-xs-6 member">
+					<div class="avatar"
+						{% if member.avatar %}
+							style="background-image:url('{{member.avatar}}')"
+						{% else %}
+							style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
+						{% endif %}
+					>
+					</div>
+					<div class="info">
+						<h2>{{ member.title }}</h2>
+						<a class="btn btn-primary btn-block"
+							href="{{ site.baseurl }}{{ member.url }}">
+							More
+						</a>
+					</div>
 				</div>
-				<div class="info">
-					<h2>{{ member.title }}</h2>
-					<a class="btn btn-primary btn-block"
-						href="{{ site.baseurl }}{{ member.url }}">
-						More
-					</a>
-				</div>
-			</div>
+			{% endif %}
+		{% endfor %}
+		<h2>Students</h2>
+		<h3>Currently Active</h3>
+		{% for member in site.team %}
+			{% if member.type == 'student' %}
+				{% if member.status == 'active' %}
+					<div class="col-md-3 col-sm-4 col-xs-6 member">
+						<div class="avatar"
+							{% if member.avatar %}
+								style="background-image:url('{{member.avatar}}')"
+							{% else %}
+								style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
+							{% endif %}
+						>
+						</div>
+						<div class="info">
+							<h2>{{ member.title }}</h2>
+							<a class="btn btn-primary btn-block"
+								href="{{ site.baseurl }}{{ member.url }}">
+								More
+							</a>
+						</div>
+					</div>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		<h3>Old members</h3>
+		{% for member in site.team %}
+			{% if member.type == 'student' %}
+				{% if member.status == 'legacy' %}
+					<div class="col-md-3 col-sm-4 col-xs-6 member">
+						<div class="avatar"
+							{% if member.avatar %}
+								style="background-image:url('{{member.avatar}}')"
+							{% else %}
+								style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
+							{% endif %}
+						>
+						</div>
+						<div class="info">
+							<h2>{{ member.title }}</h2>
+							<a class="btn btn-primary btn-block"
+								href="{{ site.baseurl }}{{ member.url }}">
+								More
+							</a>
+						</div>
+					</div>
+				{% endif %}
+			{% endif %}
 		{% endfor %}
 	</div>
 </div>
