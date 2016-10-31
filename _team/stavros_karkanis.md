@@ -1,18 +1,18 @@
 ---
 layout: member
-title: Charis Dimos
+title: Stavros A. Karkanis
 nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [jekyll_editor, is_this_licensed]
-website:
-email: dharris.hd@gmail.com
+projects: []
+website: http://karkanis.gr/
+email: sk@teilam.gr
 skype:
 facebook:
 twitter:
 linkedin:
-github: https://github.com/l0rd0fsecrets
+github:
 gitlab:
 stackoverflow:
 google_plus:

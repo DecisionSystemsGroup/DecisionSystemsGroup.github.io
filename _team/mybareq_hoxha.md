@@ -1,18 +1,18 @@
 ---
 layout: member
-title: Charis Dimos
+title: Mybareq Hoxha
 nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [jekyll_editor, is_this_licensed]
+projects: [pattern_tracking_ip_camera]
 website:
-email: dharris.hd@gmail.com
+email: m_hoxha@outlook.com
 skype:
 facebook:
 twitter:
-linkedin:
-github: https://github.com/l0rd0fsecrets
+linkedin: http://linkedin.com/in/mybareq-hoxha/
+github: https://github.com/mhoxha
 gitlab:
 stackoverflow:
 google_plus:

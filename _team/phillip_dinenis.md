@@ -1,18 +1,18 @@
 ---
 layout: member
-title: Charis Dimos
+title: Phillip Dinenis
 nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [jekyll_editor, is_this_licensed]
+projects: [fingerprint_recognition]
 website:
-email: dharris.hd@gmail.com
+email:
 skype:
-facebook:
+facebook: https://www.facebook.com/phillip92
 twitter:
-linkedin:
-github: https://github.com/l0rd0fsecrets
+linkedin: https://linkedin.com/phillip-dinenis
+github:
 gitlab:
 stackoverflow:
 google_plus:

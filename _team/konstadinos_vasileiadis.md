@@ -1,18 +1,18 @@
 ---
 layout: member
-title: Charis Dimos
+title: Konstadinos Vasileiadis
 nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [jekyll_editor, is_this_licensed]
+projects: []
 website:
-email: dharris.hd@gmail.com
+email:
 skype:
 facebook:
 twitter:
 linkedin:
-github: https://github.com/l0rd0fsecrets
+github:
 gitlab:
 stackoverflow:
 google_plus:
