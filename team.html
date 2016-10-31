@@ -6,13 +6,12 @@ title: The DSG Team
 	<div class="row">
 		{% for member in site.team %}
 			<div class="col-md-3 col-sm-4 col-xs-6 member"
-				style="background-image:url('
-					{% if member.avatar %}
-						{{member.avatar}}
-					{% else %}
-						{{ site.baseurl }}/images/dsg_social.jpg
-					{% endif %}	
-				')">
+				{% if member.avatar %}
+					style="background-image:url('{{member.avatar}}')"
+				{% else %}
+					style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
+				{% endif %}
+			>
 				<div class="info">
 					<h2>{{ member.title }}</h2>
 					<a class="btn btn-primary btn-block"
