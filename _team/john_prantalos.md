@@ -4,7 +4,7 @@ title: John Prantalos
 nickname: Pandorian
 bio: Software Engineer, cyclist and wannabe data analyst. From Greece with ❤
 avatar: http://i.imgur.com/oxyhmgh.jpg
-projects: [dsg_website]
+projects: [dsg_website, daam, food_for_charity, eco_driving_analysis, is_this_licensed]
 website: https://johnprantalos.gr
 email: johnprantalos@gmail.com
 skype:
