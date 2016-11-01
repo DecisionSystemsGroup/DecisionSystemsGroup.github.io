@@ -3,15 +3,15 @@ layout: member
 type: student
 status: active
 title: Spyros Barbetakis
-nickname: 
-bio:
+nickname: Barbe
+bio: Software Engineer
 department: Computer Engineering
-avatar:
+avatar: http://i.imgur.com/hEKDjUj.jpg
 projects: []
 website:
-email:
+email: spyrosbarbetakis@yahoo.com
 skype:
-facebook:
+facebook: https://www.facebook.com/spyros.bar
 twitter:
 linkedin:
 github:
