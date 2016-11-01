@@ -7,7 +7,7 @@ nickname: Lithan
 bio:
 department: Computer Engineering
 avatar:
-projects: [rfid_attedance_tracking, photoshop_workshop]
+projects: [rfid_attedance_tracking, is_this_licensed]
 website:
 email:
 skype:

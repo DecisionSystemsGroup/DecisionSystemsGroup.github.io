@@ -7,7 +7,7 @@ nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [daam]
+projects: [daam, is_this_licensed]
 website:
 email: gordonfreeman3773@hotmail.com
 skype:

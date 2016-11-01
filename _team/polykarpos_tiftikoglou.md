@@ -1,13 +1,13 @@
 ---
 layout: member
 type: student
-status: disabled
+status: active
 title: Polykarpos Tiftikoglou
 nickname:
 bio:
 department: Computer Engineering
 avatar: http://i.imgur.com/J0eRhen.jpg
-projects: []
+projects: [food_for_charity]
 website: https://ello.co/polykarpos
 email: ptiftikoglou@gmail.com
 skype:

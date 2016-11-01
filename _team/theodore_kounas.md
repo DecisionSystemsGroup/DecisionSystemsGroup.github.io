@@ -7,7 +7,7 @@ nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [through_equations_physics_101]
+projects: [through_equations_physics_101, is_this_licensed]
 website:
 email:
 skype:
