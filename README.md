@@ -23,6 +23,7 @@ DSG-specific
 * [Bootstrap 3](http://getbootstrap)
 * [Font Awesome 4](http://fontawesome.io/)
 * [Bootswatch](http://bootswatch.com/) [Yeti Theme](http://bootswatch.com/yeti/)
+* [jQuery 3](http://jquery.com)
 
 Licence
 =======
