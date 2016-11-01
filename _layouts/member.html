@@ -114,16 +114,18 @@ layout: public
 	</div>
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-			<h1>Projects</h1>
-			{% for site_project in site.projects %}
-				{% for member_project in page.projects %}
-					{% if site_project.alias == member_project %}
-						<div class="project">
-							<h3>{{site_project.title}}</h3>
-						</div>
-					{% endif %}
+			{% if page.projects %}
+				<h1>Projects</h1>
+				{% for site_project in site.projects %}
+					{% for member_project in page.projects %}
+						{% if site_project.alias == member_project %}
+							<div class="project">
+								<h3>{{site_project.title}}</h3>
+							</div>
+						{% endif %}
+					{% endfor %}
 				{% endfor %}
-			{% endfor %}
+			{% endif %}	
 		</div>
 	</div>
 </div>
