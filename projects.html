@@ -3,7 +3,22 @@ layout: page
 title: DSG Projects
 ---
 <div id="dsg_news" class="container">
+	<h1>DSG Projects</h1>
 	{% for project in site.projects %}
-		{{project.title}}
+		{% if project.type == 'dsg_project' %}
+			{{project.title}}<br />
+		{% endif %}
+	{% endfor %}
+	<h1>Event Projects</h1>
+	{% for project in site.projects %}
+		{% if project.type == 'event' %}
+			{{project.title}}<br />
+		{% endif %}
+	{% endfor %}
+	<h1>Theses</h1>
+	{% for project in site.projects %}
+		{% if project.type == 'thesis' %}
+			{{project.title}}<br />
+		{% endif %}
 	{% endfor %}
 </div>

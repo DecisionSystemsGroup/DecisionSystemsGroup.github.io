@@ -1,5 +1,6 @@
 ---
 layout: project
+type: dsg_project
 title: Through Equations Physics 101
 alias: through_equations_physics_101
 members: [christos_vassis, george_karabelas, theodore_kounas]
