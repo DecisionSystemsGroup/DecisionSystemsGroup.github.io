@@ -93,7 +93,9 @@ layout: public
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			{% for site_project in site.projects %}
+			{{site_project.url}}<br>
 				{% for member_project in page.projects %}
+				{{member_project}}<br><br>
 					{% if site_project.url == member_project %}
 						<div class="project">
 							<h3>{{site_project.title}}</h3>
