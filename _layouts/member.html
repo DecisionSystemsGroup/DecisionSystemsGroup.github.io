@@ -23,9 +23,24 @@ layout: public
 			{% if page.nickname %}
 				<h4>a.k.a {{ page.nickname}}</h4>
 			{% endif %}
+				<h5><strong>Department:</strong>{{page.department}}</h5>
 			{% if page.bio %}
 				<h4>{{ page.bio}}</h4>
 			{% endif %}
+			<p>
+				{% if page.email %}
+					<span>
+						<strong>E-mail:</strong>
+						<a href="mailto:{{page.email}}">{{page.email}}</a>
+					</span>
+				{% endif %}
+				{% if page.website %}
+					<span>
+						<strong>Website:</strong>
+						<a href="{{page.website}}">{{page.website}}</a>
+					</span>
+				{% endif %}
+			</p>
 			<ul id="dsg_social_list">
 				{% if page.facebook %}
 					<li><a href="{{ page.facebook }}">
@@ -66,6 +81,12 @@ layout: public
 				{% if page.googleplus %}
 					<li><a href="{{ page.googleplus }}">
 						<i class="fa fa-google-plus-square" aria-hidden="true">
+						</i>
+					</a></li>
+				{% endif %}
+				{% if page.youtube %}
+					<li><a href="{{ page.youtube }}">
+						<i class="fa fa-youtube-square" aria-hidden="true">
 						</i>
 					</a></li>
 				{% endif %}
