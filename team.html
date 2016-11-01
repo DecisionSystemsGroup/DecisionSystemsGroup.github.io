@@ -83,10 +83,10 @@ title: The DSG Team
 		{% endfor %}
 	</div>
 	<div class="row">
-		<h3>Old members</h3>
+		<h3>Colleagues</h3>
 		{% for member in site.team %}
-			{% if member.type == 'colleague' %}
-				{% if member.status == 'legacy' %}
+			{% if member.type == 'student' %}
+				{% if member.status == 'colleague' %}
 					<div class="col-md-3 col-sm-4 col-xs-6 member">
 						<div class="avatar"
 							{% if member.avatar %}
