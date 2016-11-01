@@ -6,20 +6,20 @@ title: Giorgos Markos
 nickname: GxMarkos
 bio:
 department: Computer Engineering
-avatar:
-projects: []
+avatar: http://i.imgur.com/CH88fIz.jpg
+projects: [rc_remote_control, cellphone_tracker, wireLess_pir_alarm_system]
 website:
-email:
+email: gxmarkos93@gmail.com
 skype:
-facebook:
+facebook: https://www.facebook.com/GxMarkos
 twitter:
 linkedin:
-github:
+github: https://github.com/gxmarkos
 gitlab:
 stackoverflow:
 google_plus:
 youtube:
 behance:
-instagram:
+instagram: https://www.instagram.com/giorgos__markos/
 flickr:
 ---
