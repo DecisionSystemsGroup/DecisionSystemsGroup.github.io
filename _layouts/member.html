@@ -94,7 +94,7 @@ layout: public
 		<div class="col-md-10 col-md-offset-1">
 			{% for site_project in site.projects %}
 				{% for member_project in page.projects %}
-					{% if site_project == member_project %}
+					{% if site_project.title == member_project %}
 						<div class="project">
 							<h3>{{site_project.title}}</h3>
 						</div>
