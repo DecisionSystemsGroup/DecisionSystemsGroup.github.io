@@ -1,7 +1,7 @@
 ---
 layout: member
 type: student
-status: legacy
+status: colleague
 title: Phillip Dinenis
 nickname:
 bio:

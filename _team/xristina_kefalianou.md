@@ -2,12 +2,12 @@
 layout: member
 type: student
 status: colleague
-title: Giorgos Konstantoulakis
+title: Xristina Kefalianou
 nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [image_processing]
+projects: []
 website:
 email:
 skype:
