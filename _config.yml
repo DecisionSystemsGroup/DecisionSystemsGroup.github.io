@@ -32,17 +32,6 @@ url: http://r.dsg.teiste.gr
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-  team:
-    output: true
-    permalink: /team/:path/
-  tutorials:
-    output: true
-    permalink: /foryou/:path/
-#
 # !! You don't need to change any of the configuration flags below !!
 #
 
