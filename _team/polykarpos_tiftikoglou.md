@@ -1,7 +1,7 @@
 ---
 layout: member
 type: student
-status: active
+status: disabled
 title: Polykarpos Tiftikoglou
 nickname:
 bio:
