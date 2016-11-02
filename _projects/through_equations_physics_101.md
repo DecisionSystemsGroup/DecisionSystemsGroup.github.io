@@ -5,6 +5,8 @@ title: Through Equations Physics 101
 alias: through_equations_physics_101
 members: [christos_vassis, george_karabelas, theodore_kounas]
 thumb: http://i.imgur.com/9zG9nzi.jpg
+repo:
+website:
 ---
 The goal of this project is to combine entertainment, learning and increase
 problem-solving skills of the player/student through a series of riddles and
