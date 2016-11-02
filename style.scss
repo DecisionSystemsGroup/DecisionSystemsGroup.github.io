@@ -129,10 +129,15 @@
 		padding: 25px;
 		background-color: rgba(35, 35, 35, 0.9);
 	}
-
 }
-
+#dsg_project{
+	.title{
+		font-size: 35px;
+		font-weight: 700;
+	}
+}
 #dsg_project_members{
+	margin-top: 35px;
 	.member{
 		.avatar{
 			background-color: rgba(35, 35, 35, 1);
