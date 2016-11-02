@@ -116,50 +116,54 @@ layout: public
 		<div id="dsg_member_projects" class="col-sm-6">
 			{% if page.projects %}
 				<h1>Projects</h1>
-				{% for site_project in site.projects %}
-					{% for member_project in page.projects %}
-						{% if site_project.alias == member_project %}
-							<div class="project">
-								<h3>{{site_project.title}}</h3>
-								<p>{{site_project.excerpt}}</p>
-								<a class="btn btn-xs btn-primary" role="button"
-									href="{{ site.url }}{{ site_project.url }}">
-									More
-								</a>
-								{% if site_project.repo %}
-									<a class="btn btn-xs btn-warning" role="button"
-										href="{{ site_project.repo }}">
-										Repo
+				<div class="wrapper_600">
+					{% for site_project in site.projects %}
+						{% for member_project in page.projects %}
+							{% if site_project.alias == member_project %}
+								<div class="project">
+									<h3>{{site_project.title}}</h3>
+									<p>{{site_project.excerpt}}</p>
+									<a class="btn btn-xs btn-primary" role="button"
+										href="{{ site.url }}{{ site_project.url }}">
+										More
 									</a>
-								{% endif %}
-								{% if site_project.website %}
-									<a class="btn btn-xs btn-success" role="button"
-										href="{{ site_project.website }}">
-										Website
-									</a>
-								{% endif %}
-							</div>
-						{% endif %}
+									{% if site_project.repo %}
+										<a class="btn btn-xs btn-warning" role="button"
+											href="{{ site_project.repo }}">
+											Repo
+										</a>
+									{% endif %}
+									{% if site_project.website %}
+										<a class="btn btn-xs btn-success" role="button"
+											href="{{ site_project.website }}">
+											Website
+										</a>
+									{% endif %}
+								</div>
+							{% endif %}
+						{% endfor %}
 					{% endfor %}
-				{% endfor %}
+				</div>
 			{% endif %}
 		</div>
 		<div id="dsg_member_posts" class="col-sm-6">
 			<h1>Posts</h1>
-			{% for post in site.posts %}
-				{% for author in post.authors %}
-					{% if author == page.alias %}
-					<div class="post">
-						<h3>{{post.title}}</h3>
-						<p>{{post.excerpt}}</p>
-						<a class="btn btn-xs btn-primary" role="button"
-							href="{{ site.url }}{{ post.url }}">
-							Read More
-						</a>
-					</div>
-					{% endif %}
+			<div class="wrapper_600">
+				{% for post in site.posts %}
+					{% for author in post.authors %}
+						{% if author == page.alias %}
+						<div class="post">
+							<h3>{{post.title}}</h3>
+							<p>{{post.excerpt}}</p>
+							<a class="btn btn-xs btn-primary" role="button"
+								href="{{ site.url }}{{ post.url }}">
+								Read More
+							</a>
+						</div>
+						{% endif %}
+					{% endfor %}
 				{% endfor %}
-			{% endfor %}
+			</div>
 		</div>
 	</div>
 </div>
