@@ -1,0 +1,20 @@
+---
+layout: public
+---
+<div id="dsg_page_head" class="container-fluid">
+	<div class="container">
+		<h1>DSG Projects</h1>
+	</div>
+</div>
+<div id="{{ page.url }}" class="container">
+	<div id="dsg_project" class="row">
+		<img class="img-responsive" src="{{ page.thumb }}" alt="project-thumb" />
+		<div class="col-md-10 col-md-offset-1">
+			<h1 class="title">{{ page.title }}</h1>
+			{{ content }}
+		</div>
+	</div>
+	<div id="dsg_comments" class="row">
+		{% include disqus.html %}
+	</div>
+</div>
