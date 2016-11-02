@@ -30,7 +30,22 @@ layout: public
 							{% endif %}
 						></div>
 						<div class="info">
-							<h3>{{ site_member.title }}</h3>
+							<h3 class="hidden-xs hidden-sm hidden-md"
+								style="font-size:15px;">
+								{{ site_member.title }}
+							</h3>
+							<h3 class="hidden-xs hidden-sm hidden-lg"
+								style="font-size:20px;">
+								{{ site_member.title }}
+							</h3>
+							<h3 class="hidden-xs hidden-md hidden-lg"
+								style="font-size:22px;">
+								{{ site_member.title }}
+							</h3>
+							<h3 class="hidden-sm hidden-md hidden-lg"
+								style="font-size:26px;">
+								{{ site_member.title }}
+							</h3>
 							<a class="btn btn-primary btn-xs btn-block"
 								href="{{ site.url }}{{ site_member.url }}">
 								Profile
