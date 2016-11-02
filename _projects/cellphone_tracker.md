@@ -5,7 +5,5 @@ title: CellPhone GPS GSM GPRS Tracker
 alias: cellphone_tracker
 members: [giorgos__markos]
 thumb:
-repo: test
-website: test
 ---
 Info Pending
