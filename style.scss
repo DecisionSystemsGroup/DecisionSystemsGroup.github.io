@@ -107,7 +107,11 @@
 	background-repeat: no-repeat;
 	color: rgba(230, 230, 230, 1);
 	margin: 15px 0px;
-	padding: 25px;
+	.glass{
+		padding: 25px;
+		background-color: rgba(35, 35, 35, 0.9);
+	}
+
 }
 #dsg_team{
 	.member{
