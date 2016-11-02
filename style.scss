@@ -155,17 +155,17 @@
 		}
 		h3{
 			font-weight: 700;
-			@media (min-width: $screen-xs-min) {
-				font-size: 22px;
-			}
-			@media (min-width: $screen-sm-min) {
-				min-height: 20px;
-			}
-			@media (min-width: $screen-md-min) {
-				min-height: 20px;
-			}
-			@media (min-width: $screen-lg-min) {
+			.col-lg-2{
 				min-height: 15px;
+			}
+			.col-md-3{
+				min-height: 20px;
+			}
+			.col-sm-4{
+				min-height: 22px;
+			}
+			.col-xs-6{
+				font-size: 26px;
 			}
 		}
 	}
