@@ -8,11 +8,29 @@ layout: public
 </div>
 <div id="{{ page.url }}" class="container">
 	<div id="dsg_project" class="row">
-		<img class="img-responsive" src="{{ page.thumb }}" alt="project-thumb" />
+		{% if page.thumb %}
+			<img class="img-responsive" src="{{ page.thumb }}"
+				alt="project-thumb" />
+		{% endif %}
 		<div class="col-md-10 col-md-offset-1">
 			<h1 class="title">{{ page.title }}</h1>
 			{{ content }}
 		</div>
+	</div>
+	<div id="dsg_project_members" class="row">
+		{% for project_member in page.projects %}
+			{% for site_member in site.team %}
+				{% if site_member.alias == project_member %}
+					<div class="col-md-3 member">
+						<h3>{{ site_member.title }}</h3>
+						<a class="btn btn-primary btn-block"
+							href="{{ site.url }}{{ site_member.url }}">
+							Profile
+						</a>
+					</div>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
 	</div>
 </div>
 {% include disqus.html %}
