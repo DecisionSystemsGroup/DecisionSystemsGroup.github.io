@@ -4,10 +4,10 @@ type: student
 alias: george_karabelas
 status: active
 title: George Karabelas
-nickname:
-bio:
+nickname: Crazy George
+bio: Programmer, Graphic Designer, 3D Modeler and Animator
 department: Computer Engineering
-avatar:
+avatar: http://i.imgur.com/FOPz6bW.jpg
 projects: [dsg_logo, through_equations_physics_101]
 website: http://crazycreators.newgrounds.com/
 email: thecrazyartists@gmail.com
@@ -20,7 +20,7 @@ gitlab:
 stackoverflow:
 google_plus:
 youtube: https://www.youtube.com/channel/UCdCk7qwWMgrWGjD4RqF8Pqg
-behance:
+behance: https://www.behance.net/CrazyCreators
 instagram:
 flickr:
 ---
