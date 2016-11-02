@@ -150,22 +150,23 @@
 		@media (min-width: $screen-lg-min) {
 			min-height: 292.5px
 		}
-		.glass{
-			background-color: rgba(35, 35, 35, 0.9);
-		}
-		h3{
-			font-weight: 700;
-			.col-lg-2{
-				font-size: 15px;
-			}
-			.col-md-3{
-				font-size: 20px;
-			}
-			.col-sm-4{
-				font-size: 22px;
-			}
-			.col-xs-6{
-				font-size: 26px;
+		.info{
+			background-color: rgba(34, 34, 34, 0.95);
+			color: rgba(230, 230, 230, 1);
+			h3{
+				font-weight: 700;
+				.col-lg-2{
+					font-size: 15px;
+				}
+				.col-md-3{
+					font-size: 20px;
+				}
+				.col-sm-4{
+					font-size: 22px;
+				}
+				.col-xs-6{
+					font-size: 26px;
+				}
 			}
 		}
 	}

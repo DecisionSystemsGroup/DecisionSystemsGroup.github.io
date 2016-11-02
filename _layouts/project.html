@@ -21,12 +21,15 @@ layout: public
 		{% for project_member in page.members %}
 			{% for site_member in site.team %}
 				{% if site_member.alias == project_member %}
-					<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 member"
-						{% if site_member.avatar %}
-							style="background-image:url('{{ site_member.avatar }}');"
-						{% endif %}
-					>
-						<div class="glass">
+					<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 member">
+						<div class="avatar">
+							{% if site_member.avatar %}
+								style="background-image:url('{{ site_member.avatar }}');"
+							{% else %}
+								style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
+							{% endif %}
+						></div>
+						<div class="info">
 							<h3>{{ site_member.title }}</h3>
 							<a class="btn btn-primary btn-xs btn-block"
 								href="{{ site.url }}{{ site_member.url }}">
