@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C Sharp Workshop Aftermath
-author: John Prantalos
+authors: [john_prantalos]
 tags: [dsg, event, workshop, c, sharp]
 language: english
 thumb: http://i.imgur.com/VycECWt.jpg

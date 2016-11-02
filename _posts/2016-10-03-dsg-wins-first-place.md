@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DSG Wins the first place at Crowdhackathon Insurance
-author: John Prantalos
+authors: [john_prantalos]
 tags: [crowdhackathon, insurance, hackathon, event, tsourlidakis, barmpakos, oikonomidis, prantalos, daam, hermes-v, hermesv]
 language: english
 thumb: http://i.imgur.com/7Gf7zYF.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: jQuery Workshop Aftermath
-author: John Prantalos
+authors: [john_prantalos]
 tags: [dsg, event, workshop, jquery]
 language: english
 thumb: http://i.imgur.com/LkMsizm.jpg

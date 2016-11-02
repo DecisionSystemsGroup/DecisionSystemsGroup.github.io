@@ -8,7 +8,16 @@ title: DSG News
 			<div class="info col-md-8 col-md-offset-2">
 				<p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
 				<h1 class="title">{{ post.title }}</h1>
-				<h4 class="author">by {{ post.author }}</h4>
+				<h4 class="author">
+					by
+					{% for member in site.team %}
+						{% for author in post.authors %}
+							{% if member.alias == author %}
+								{{ member.title }} 
+							{% endif %}
+						{% endfor %}
+					{% endfor %}
+				</h4>
 				<p class="text-left">{{ post.excerpt }}</p>
 				<a class="btn btn-primary"
 					href="{{ site.baseurl }}{{ post.url }}">

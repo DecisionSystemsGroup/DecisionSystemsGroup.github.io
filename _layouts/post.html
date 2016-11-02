@@ -14,7 +14,14 @@ layout: public
 			{{ content }}
 			<div class="info">
 				Written on {{ page.date | date: "%B %e, %Y" }},
-				by {{ page.author }}
+				by
+				{% for member in site.team %}
+					{% for author in page.authors %}
+						{% if member.alias == author %}
+							{{ member.title }}
+						{% endif %}
+					{% endfor %}
+				{% endfor %}
 			</div>
 			<div id="dsg_tags" class="row text-muted">
 				<div class="col-md-10 col-md-offset-1">

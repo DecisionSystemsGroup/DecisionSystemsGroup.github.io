@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DSG Open Day Aftermath
-author: John Prantalos
+authors: [john_prantalos]
 tags: [dsg, event, workshop, open, day]
 language: english
 thumb: http://i.imgur.com/GKxDHXt.jpg
