@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: spyros_barbetakis
 status: active
 title: Spyros Barbetakis
 nickname: Barbe

@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: stavros_tsourlidakis
 status: active
 title: Stavros Tsourlidakis
 nickname:

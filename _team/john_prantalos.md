@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: john_prantalos
 status: active
 title: John Prantalos
 nickname: Pandorian

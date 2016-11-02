@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: giannis_kokkotos
 status: legacy
 title: Giannis Kokkotos
 nickname:

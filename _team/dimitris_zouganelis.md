@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: dimitris_zouganelis
 status: legacy
 title: Dimitris Zouganelis
 nickname:

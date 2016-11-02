@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: stavros_oikonomidis
 status: active
 title: Stavros Oikonomidis
 nickname: Admax

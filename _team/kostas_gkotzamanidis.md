@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: kostas_gkotzamanidis
 status: active
 title: Kostas Gkotzamanidis
 nickname:

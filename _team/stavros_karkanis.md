@@ -1,6 +1,7 @@
 ---
 layout: member
 type: professor
+alias: stavros_karkanis
 status: active
 title: Stavros A. Karkanis
 nickname:

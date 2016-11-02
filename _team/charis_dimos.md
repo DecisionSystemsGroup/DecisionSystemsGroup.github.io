@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: charis_dimos
 status: active
 title: Charis Dimos
 nickname:

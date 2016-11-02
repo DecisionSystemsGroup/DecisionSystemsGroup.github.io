@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: dimitris_barmpakos
 status: legacy
 title: Dimitris Barmpakos
 nickname:

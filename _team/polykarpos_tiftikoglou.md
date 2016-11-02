@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: polykarpos_tiftikoglou
 status: active
 title: Polykarpos Tiftikoglou
 nickname:

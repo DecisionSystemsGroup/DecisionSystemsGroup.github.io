@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: giorgos_xatzis
 status: legacy
 title: Giorgos Xatzis
 nickname:

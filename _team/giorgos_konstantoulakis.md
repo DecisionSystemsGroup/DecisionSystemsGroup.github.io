@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: giorgos_konstantoulakis
 status: colleague
 title: Giorgos Konstantoulakis
 nickname:

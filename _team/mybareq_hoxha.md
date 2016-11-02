@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: mybareq_hoxha
 status: active
 title: Mybareq Hoxha
 nickname:

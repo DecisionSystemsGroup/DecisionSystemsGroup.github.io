@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: konstadinos_vasileiadis
 status: disabled
 title: Konstadinos Vasileiadis
 nickname:

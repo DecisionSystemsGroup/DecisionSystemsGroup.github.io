@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: giorgos_markos
 status: active
 title: Giorgos Markos
 nickname: GxMarkos

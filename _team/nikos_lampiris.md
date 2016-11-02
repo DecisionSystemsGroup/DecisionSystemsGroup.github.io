@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: nikos_lampiris
 status: colleague
 title: Nikos Lampiris
 nickname:

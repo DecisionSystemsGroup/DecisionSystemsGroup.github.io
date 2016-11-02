@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: philip_dinenis
 status: colleague
 title: Phillip Dinenis
 nickname:

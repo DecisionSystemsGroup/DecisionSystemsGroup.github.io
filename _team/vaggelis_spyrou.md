@@ -1,6 +1,7 @@
 ---
 layout: member
 type: professor
+alias: vaggelis_spyrou
 status: active
 title: Vaggelis Spyrou
 nickname:

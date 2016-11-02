@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: aris_danasis
 status: legacy
 title: Aris Danasis
 nickname:

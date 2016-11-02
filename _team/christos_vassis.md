@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: christos_vassis
 status: active
 title: Christos Vassis
 nickname:

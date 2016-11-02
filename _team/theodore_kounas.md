@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: theodore_kounas
 status: active
 title: Theodore Kounas
 nickname:

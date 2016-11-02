@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: xristina_kefalianou
 status: colleague
 title: Xristina Kefalianou
 nickname:

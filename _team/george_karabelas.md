@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: george_karabelas
 status: active
 title: George Karabelas
 nickname:

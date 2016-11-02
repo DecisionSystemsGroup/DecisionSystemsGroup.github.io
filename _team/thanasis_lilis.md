@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: thanasis_lilis
 status: active
 title: Thanasis Lilis
 nickname: Lithan

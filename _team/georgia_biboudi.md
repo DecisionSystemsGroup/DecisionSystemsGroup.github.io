@@ -1,6 +1,7 @@
 ---
 layout: member
 type: student
+alias: georgia_biboudi
 status: disabled
 title: Georgia Biboudi
 nickname:
