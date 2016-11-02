@@ -4,18 +4,26 @@ title: DSG Projects
 ---
 <div id="dsg_news" class="container">
 	<h1>DSG Projects</h1>
+	<p>Projects created by DSG Members in the lab.</p>
 	{% for project in site.projects %}
 		{% if project.type == 'dsg_project' %}
 			{{project.title}}<br />
 		{% endif %}
 	{% endfor %}
 	<h1>Event Projects</h1>
+	<p>
+		Projects created by DSG Members in various events the DSG Team took
+		part.
+	</p>
 	{% for project in site.projects %}
 		{% if project.type == 'event' %}
 			{{project.title}}<br />
 		{% endif %}
 	{% endfor %}
 	<h1>Theses</h1>
+	<p>
+		Theses and papers of various students, not necessarily DSG members.
+	</p>
 	{% for project in site.projects %}
 		{% if project.type == 'thesis' %}
 			{{project.title}}<br />
