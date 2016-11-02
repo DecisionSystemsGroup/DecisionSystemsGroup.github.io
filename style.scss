@@ -9,6 +9,34 @@
 .alert{
 	margin-bottom: 0px;
 }
+.col-lg-2{
+	#dsg_project_members{
+		h3{
+			font-size: 15px;
+		}
+	}
+}
+.col-md-3{
+	#dsg_project_members{
+		h3{
+			font-size: 20px;
+		}
+	}
+}
+.col-sm-4{
+	#dsg_project_members{
+		h3{
+			font-size: 22px;
+		}
+	}
+}
+.col-xs-6{
+	#dsg_project_members{
+		h3{
+			font-size: 26px;
+		}
+	}
+}
 .container-fluid{
 	padding: 0px;
 }
@@ -131,6 +159,7 @@
 	}
 
 }
+
 #dsg_project_members{
 	.member{
 		.avatar{
@@ -157,18 +186,8 @@
 			color: rgba(230, 230, 230, 1);
 			h3{
 				font-weight: 700;
-				.col-lg-2{
-					font-size: 15px;
-				}
-				.col-md-3{
-					font-size: 20px;
-				}
-				.col-sm-4{
-					font-size: 22px;
-				}
-				.col-xs-6{
-					font-size: 26px;
-				}
+				margin: 0px;
+				padding: 10px;
 			}
 		}
 	}
