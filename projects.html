@@ -13,10 +13,22 @@ title: DSG Projects
 					<p>{{project.excerpt}}</p>
 				</div>
 				<div class="col-md-2">
-					<a class="btn btn-primary" role="button"
+					<a class="btn btn-primary btn-button" role="button"
 						href="{{ site.url }}{{ project.url }}">
 						More
 					</a>
+					{% if project.repo %}
+						<a class="btn btn-warning btn-button" role="button"
+							href="{{ project.repo }}">
+							Repo
+						</a>
+					{% endif %}
+					{% if project.website %}
+						<a class="btn btn-success btn-button" role="button"
+							href="{{ project.website }}">
+							Repo
+						</a>
+					{% endif %}
 				</div>
 			</div>
 		{% endif %}
