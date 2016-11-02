@@ -7,7 +7,18 @@ title: DSG Projects
 	<p>Projects created by DSG Members in the lab.</p>
 	{% for project in site.projects %}
 		{% if project.type == 'dsg_project' %}
-			{{project.title}}<br />
+			<div class="row dsg_project">
+				<div class="col-md-10">
+					<h2>{{project.title}}</h2>
+					<p>{{project.excerpt}}</p>
+				</div>
+				<div class="col-md-2">
+					<a class="btn btn-primary" role="button"
+						href="{{ site.url }}{{ project.url }}">
+						More
+					</a>
+				</div>
+			</div>
 		{% endif %}
 	{% endfor %}
 	<h1>Event Projects</h1>
