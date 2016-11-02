@@ -7,12 +7,16 @@ title: DSG Projects
 	<p>Projects created by DSG Members in the lab.</p>
 	{% for project in site.projects %}
 		{% if project.type == 'dsg_project' %}
-			<div class="row dsg_project">
-				<div class="col-md-10">
+			<div class="row dsg_project"
+				{% if project.thumb %}
+				style="background-image:url('{{ project.thumb }}')"
+				{% endif %}
+			>
+				<div class="col-md-9">
 					<h2>{{project.title}}</h2>
 					<p>{{project.excerpt}}</p>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-3">
 					<a class="btn btn-primary btn-block" role="button"
 						href="{{ site.url }}{{ project.url }}">
 						More
@@ -40,7 +44,34 @@ title: DSG Projects
 	</p>
 	{% for project in site.projects %}
 		{% if project.type == 'event' %}
-			{{project.title}}<br />
+		<div class="row dsg_project"
+			{% if project.thumb %}
+			style="background-image:url('{{ project.thumb }}')"
+			{% endif %}
+		>
+			<div class="col-md-9">
+				<h2>{{project.title}}</h2>
+				<p>{{project.excerpt}}</p>
+			</div>
+			<div class="col-md-3">
+				<a class="btn btn-primary btn-block" role="button"
+					href="{{ site.url }}{{ project.url }}">
+					More
+				</a>
+				{% if project.repo %}
+					<a class="btn btn-warning btn-block" role="button"
+						href="{{ project.repo }}">
+						Repo
+					</a>
+				{% endif %}
+				{% if project.website %}
+					<a class="btn btn-success btn-block" role="button"
+						href="{{ project.website }}">
+						Website
+					</a>
+				{% endif %}
+			</div>
+		</div>
 		{% endif %}
 	{% endfor %}
 	<h1>Theses</h1>
@@ -49,7 +80,34 @@ title: DSG Projects
 	</p>
 	{% for project in site.projects %}
 		{% if project.type == 'thesis' %}
-			{{project.title}}<br />
+		<div class="row dsg_project"
+			{% if project.thumb %}
+			style="background-image:url('{{ project.thumb }}')"
+			{% endif %}
+		>
+			<div class="col-md-9">
+				<h2>{{project.title}}</h2>
+				<p>{{project.excerpt}}</p>
+			</div>
+			<div class="col-md-3">
+				<a class="btn btn-primary btn-block" role="button"
+					href="{{ site.url }}{{ project.url }}">
+					More
+				</a>
+				{% if project.repo %}
+					<a class="btn btn-warning btn-block" role="button"
+						href="{{ project.repo }}">
+						Repo
+					</a>
+				{% endif %}
+				{% if project.website %}
+					<a class="btn btn-success btn-block" role="button"
+						href="{{ project.website }}">
+						Website
+					</a>
+				{% endif %}
+			</div>
+		</div>
 		{% endif %}
 	{% endfor %}
 </div>
