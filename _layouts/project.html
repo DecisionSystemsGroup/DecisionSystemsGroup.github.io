@@ -22,7 +22,7 @@ layout: public
 			{% for site_member in site.team %}
 				{% if site_member.alias == project_member %}
 					<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 member">
-						<div class="avatar">
+						<div class="avatar"
 							{% if site_member.avatar %}
 								style="background-image:url('{{ site_member.avatar }}');"
 							{% else %}
