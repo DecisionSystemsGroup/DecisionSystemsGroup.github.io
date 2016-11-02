@@ -121,11 +121,28 @@ layout: public
 						{% if site_project.alias == member_project %}
 							<div class="project">
 								<h3>{{site_project.title}}</h3>
+								<p>{{site_project.excerpt}}</p>
+								<a class="btn btn-xs btn-primary btn-block" role="button"
+									href="{{ site.url }}{{ site_project.url }}">
+									More
+								</a>
+								{% if site_project.repo %}
+									<a class="btn btn-xs btn-warning btn-block" role="button"
+										href="{{ site_project.repo }}">
+										Repo
+									</a>
+								{% endif %}
+								{% if site_project.website %}
+									<a class="btn btn-xs btn-success btn-block" role="button"
+										href="{{ site_project.website }}">
+										Website
+									</a>
+								{% endif %}
 							</div>
 						{% endif %}
 					{% endfor %}
 				{% endfor %}
-			{% endif %}	
+			{% endif %}
 		</div>
 	</div>
 </div>
