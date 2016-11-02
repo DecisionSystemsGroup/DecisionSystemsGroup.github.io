@@ -18,7 +18,7 @@ layout: public
 		</div>
 	</div>
 	<div id="dsg_project_members" class="row">
-		{% for project_member in page.projects %}
+		{% for project_member in page.members %}
 			{% for site_member in site.team %}
 				{% if site_member.alias == project_member %}
 					<div class="col-md-3 member">
