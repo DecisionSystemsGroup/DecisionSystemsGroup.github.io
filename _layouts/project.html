@@ -23,7 +23,8 @@ layout: public
 				{% if site_member.alias == project_member %}
 					<div class="col-xs-1 col-sm-2 col-md-3 col-lg-2 member"
 						{% if site_member.avatar %}
-						style="background-image=url('{{ site_member.avatar }}');"
+							style="background-image=url('{{ site_member.avatar }}');"
+						{% endif %}
 					>
 						<div class="glass">
 							<h3>{{ site_member.title }}</h3>
@@ -31,7 +32,7 @@ layout: public
 								href="{{ site.url }}{{ site_member.url }}">
 								Profile
 							</a>
-						</div>	
+						</div>
 					</div>
 				{% endif %}
 			{% endfor %}
