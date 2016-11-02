@@ -156,16 +156,16 @@
 		h3{
 			font-weight: 700;
 			@media (min-width: $screen-xs-min) {
-				font-size: 22px
+				font-size: 22px;
 			}
 			@media (min-width: $screen-sm-min) {
-				min-height: 20px
+				min-height: 20px;
 			}
 			@media (min-width: $screen-md-min) {
-				min-height: 20px
+				min-height: 20px;
 			}
 			@media (min-width: $screen-lg-min) {
-				min-height: 15px
+				min-height: 15px;
 			}
 		}
 	}
