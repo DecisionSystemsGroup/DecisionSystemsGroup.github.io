@@ -3,18 +3,18 @@ layout: public
 ---
 <div id="dsg_page_head" class="container-fluid">
 	<div class="container">
-		<h1>DSG Projects</h1>
+		<h1>DSG Projects: {{ page.title }}</h1>
 	</div>
 </div>
 <div id="{{ page.url }}" class="container">
-	<div id="dsg_project" class="row">
-		{% if page.thumb %}
-			<div class="thumb" style="background-image:url('{{ page.thumb }}')">
+	{% if page.thumb %}
+		<div id="dsg_thumb" class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive" src="{{ page.thumb }}" alt="thumb"/>
 			</div>
-		{% else %}
-			<div class="no-thumb"></div>
-		{% endif %}
-		<h1 class="title">{{ page.title }}</h1>
+		</div>
+	{% endif %}
+	<div id="dsg_project" class="row">
 		{{ content }}
 	</div>
 	<div id="dsg_project_members" class="row">
