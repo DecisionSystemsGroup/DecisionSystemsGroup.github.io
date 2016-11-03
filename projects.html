@@ -5,7 +5,7 @@ title: DSG Projects
 <div id="dsg_projects" class="container">
 	<h1>Team Projects</h1>
 	<p>Projects created by DSG Members in the lab.</p>
-	{% for project in site.projects reversed %}
+	{% for project in site.projects %}
 		{% if project.type == 'dsg_project' %}
 			<div class="row project"
 				{% if project.thumb %}
