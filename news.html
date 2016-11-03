@@ -13,7 +13,9 @@ title: DSG News
 					{% for member in site.team %}
 						{% for author in post.authors %}
 							{% if member.alias == author %}
-								{{ member.title }} 
+								{% if has_author %}, {% endif %}
+								{% assign has_author = true %}
+								{{ member.title }}
 							{% endif %}
 						{% endfor %}
 					{% endfor %}
