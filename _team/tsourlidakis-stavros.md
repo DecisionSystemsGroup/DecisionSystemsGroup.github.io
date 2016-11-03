@@ -4,7 +4,7 @@ type: student
 alias: stavros_tsourlidakis
 status: active
 title: Stavros Tsourlidakis
-nickname:
+nickname: stsourlidakis
 bio:
 department: Computer Engineering
 avatar: http://i.imgur.com/PgfkK0O.jpg
@@ -13,11 +13,11 @@ website: http://users.teilam.gr/~stsourlidakis/
 email: s.tsourlidakis@hotmail.com
 skype:
 facebook:
-twitter:
+twitter: https://twitter.com/stsourlidakis
 linkedin: http://linkedin.com/in/stsourlidakis
 github: https://github.com/stsourlidakis
 gitlab:
-stackoverflow:
+stackoverflow: http://stackoverflow.com/users/4055626/tsta
 google_plus:
 youtube:
 behance:
