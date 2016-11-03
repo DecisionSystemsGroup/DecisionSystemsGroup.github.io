@@ -114,7 +114,14 @@ layout: public
 	</div>
 	<div class="row">
 		<div id="dsg_member_projects" class="col-sm-6">
-			<h1>Projects</h1>
+			{% for project in site.projects %}
+				{% for member in project.members %}
+					{% if member == page.alias %}
+						<h1>Projects</h1>
+						{% break %}
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
 			<div class="wrapper_600">
 				{% for project in site.projects %}
 					{% for member in project.members %}
@@ -145,6 +152,14 @@ layout: public
 			</div>
 		</div>
 		<div id="dsg_member_posts" class="col-sm-6">
+			{% for post in site.posts %}
+				{% for author in post.authors %}
+					{% if author == page.alias %}
+						<h1>Projects</h1>
+						{% break %}
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
 			<h1>Posts</h1>
 			<div class="wrapper_600">
 				{% for post in site.posts %}
