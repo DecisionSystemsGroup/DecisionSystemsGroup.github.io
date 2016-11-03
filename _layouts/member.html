@@ -118,7 +118,6 @@ layout: public
 				{% for member in project.members %}
 					{% if member == page.alias %}
 						<h1>Projects</h1>
-						{% break %}
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
@@ -152,11 +151,14 @@ layout: public
 			</div>
 		</div>
 		<div id="dsg_member_posts" class="col-sm-6">
+			{% assign has_posts = false %}
 			{% for post in site.posts %}
 				{% for author in post.authors %}
 					{% if author == page.alias %}
-						<h1>Projects</h1>
-						{% break %}
+						{% unless has_posts%}
+							<h1>Projects</h1>
+							{% assign has_posts = true %}
+						{% endunless %}
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
