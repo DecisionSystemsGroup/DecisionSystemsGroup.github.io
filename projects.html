@@ -44,7 +44,7 @@ title: DSG Projects
 		Projects created by DSG Members in various events the DSG Team took
 		part.
 	</p>
-	{% for project in site.projects reversed %}
+	{% for project in site.projects %}
 		{% if project.type == 'event' %}
 			<div class="row project"
 				{% if project.thumb %}
@@ -82,7 +82,7 @@ title: DSG Projects
 	<p>
 		Theses and papers of various students, not necessarily DSG members.
 	</p>
-	{% for project in site.projects reversed %}
+	{% for project in site.projects %}
 		{% if project.type == 'thesis' %}
 			<div class="row project"
 				{% if project.thumb %}
