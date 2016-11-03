@@ -119,40 +119,42 @@ layout: public
 				{% for member in project.members %}
 					{% if member == page.alias %}
 						{% unless has_projects %}
-							<h1>Posts</h1>
+							<h1>Projects</h1>
 							{% assign has_projects = true %}
 						{% endunless %}
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
-			<div class="wrapper_600">
-				{% for project in site.projects %}
-					{% for member in project.members %}
-						{% if member == page.alias %}
-							<div class="project">
-								<h3>{{project.title}}</h3>
-								<p>{{project.excerpt}}</p>
-								<a class="btn btn-xs btn-primary" role="button"
-									href="{{ site.url }}{{ project.url }}">
-									More
-								</a>
-								{% if project.repo %}
-									<a class="btn btn-xs btn-warning" role="button"
-										href="{{ project.repo }}">
-										Repo
+			{% unless has_projects %}
+				<div class="wrapper_600">
+					{% for project in site.projects %}
+						{% for member in project.members %}
+							{% if member == page.alias %}
+								<div class="project">
+									<h3>{{project.title}}</h3>
+									<p>{{project.excerpt}}</p>
+									<a class="btn btn-xs btn-primary" role="button"
+										href="{{ site.url }}{{ project.url }}">
+										More
 									</a>
-								{% endif %}
-								{% if project.website %}
-									<a class="btn btn-xs btn-success" role="button"
-										href="{{ project.website }}">
-										Website
-									</a>
-								{% endif %}
-							</div>
-						{% endif %}
+									{% if project.repo %}
+										<a class="btn btn-xs btn-warning" role="button"
+											href="{{ project.repo }}">
+											Repo
+										</a>
+									{% endif %}
+									{% if project.website %}
+										<a class="btn btn-xs btn-success" role="button"
+											href="{{ project.website }}">
+											Website
+										</a>
+									{% endif %}
+								</div>
+							{% endif %}
+						{% endfor %}
 					{% endfor %}
-				{% endfor %}
-			</div>
+				</div>
+			{% endunless %}
 		</div>
 		<div id="dsg_member_posts" class="col-sm-6">
 			{% assign has_posts = false %}
@@ -166,22 +168,24 @@ layout: public
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
-			<div class="wrapper_600">
-				{% for post in site.posts %}
-					{% for author in post.authors %}
-						{% if author == page.alias %}
-						<div class="post">
-							<h3>{{post.title}}</h3>
-							<p>{{post.excerpt}}</p>
-							<a class="btn btn-xs btn-primary" role="button"
-								href="{{ site.url }}{{ post.url }}">
-								Read More
-							</a>
-						</div>
-						{% endif %}
+			{% unless has_posts %}
+				<div class="wrapper_600">
+					{% for post in site.posts %}
+						{% for author in post.authors %}
+							{% if author == page.alias %}
+							<div class="post">
+								<h3>{{post.title}}</h3>
+								<p>{{post.excerpt}}</p>
+								<a class="btn btn-xs btn-primary" role="button"
+									href="{{ site.url }}{{ post.url }}">
+									Read More
+								</a>
+							</div>
+							{% endif %}
+						{% endfor %}
 					{% endfor %}
-				{% endfor %}
-			</div>
+				</div>
+			{% endunless %}
 		</div>
 	</div>
 </div>
