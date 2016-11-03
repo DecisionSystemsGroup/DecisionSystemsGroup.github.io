@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Photoshop Workshop Aftermath
-authors: [thanasis_lilis, george_karabelas, johnprantalos]
+authors: [thanasis_lilis, george_karabelas, john_prantalos]
 tags: [dsg, event, workshop, photoshop, retouch]
 language: english
 thumb: http://i.imgur.com/GyDmdtp.jpg
