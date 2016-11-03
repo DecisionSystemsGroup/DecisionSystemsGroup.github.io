@@ -126,6 +126,9 @@
 }
 #dsg_project{
 	font-size: 18px;
+	.nothumb{
+		height: 20px;
+	}
 	.thumb{
 		height: 500px;
 		background-position: center top;
