@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP + Mysql Workshop Aftermath
-authors: [john_prantalos]
+authors: [stavros_tsourlidakis, stavros_oikonomidis]
 tags: [dsg, event, workshop, php, mysql]
 language: english
 thumb: http://i.imgur.com/KO3n1r9.jpg

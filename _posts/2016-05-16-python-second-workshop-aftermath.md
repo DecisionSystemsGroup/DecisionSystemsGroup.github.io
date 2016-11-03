@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python Part 2 Workshop Aftermath
-authors: [john_prantalos]
+authors: [charis_dimos]
 tags: [dsg, event, workshop, python]
 language: english
 thumb: http://i.imgur.com/ClIvWzR.jpg
