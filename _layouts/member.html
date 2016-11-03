@@ -125,7 +125,7 @@ layout: public
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
-			{% unless has_projects %}
+			{% if has_projects %}
 				<div class="wrapper_600">
 					{% for project in site.projects %}
 						{% for member in project.members %}
@@ -154,7 +154,7 @@ layout: public
 						{% endfor %}
 					{% endfor %}
 				</div>
-			{% endunless %}
+			{% endif %}
 		</div>
 		<div id="dsg_member_posts" class="col-sm-6">
 			{% assign has_posts = false %}
@@ -168,7 +168,7 @@ layout: public
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
-			{% unless has_posts %}
+			{% if has_posts %}
 				<div class="wrapper_600">
 					{% for post in site.posts %}
 						{% for author in post.authors %}
@@ -185,7 +185,7 @@ layout: public
 						{% endfor %}
 					{% endfor %}
 				</div>
-			{% endunless %}
+			{% endif %}
 		</div>
 	</div>
 </div>
