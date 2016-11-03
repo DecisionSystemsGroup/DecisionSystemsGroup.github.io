@@ -8,7 +8,7 @@ nickname:
 bio:
 department: Computer Engineering
 avatar: http://i.imgur.com/SdDGrZP.jpg
-projects: [fingerprint_recognition]
+projects:
 website:
 email:
 skype:
