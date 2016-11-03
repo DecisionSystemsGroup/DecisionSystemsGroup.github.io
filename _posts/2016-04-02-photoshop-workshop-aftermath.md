@@ -19,7 +19,7 @@ design-oriented tablet, which was demonstrated to the audience and analyzed.
 Below you can see a timelapse of sky's creation:
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class=""embed-responsive-item" allowfullscreen src="https://www.youtube.com/embed/3OzN50UzjjY" ></iframe>
+	<iframe class="embed-responsive-item" allowfullscreen src="https://www.youtube.com/embed/3OzN50UzjjY" ></iframe>
 </div>
 
 For the second part of the workshop, we saw Thanasis introducing us to some of
