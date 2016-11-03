@@ -50,9 +50,11 @@
 						<ul class="dropdown-menu">
 							{% for project in site.projects %}
 								{% if project.repo %}
-								<a href="{{project.repo}}">
-									{{project.title}}
-								</a>
+								<li>
+									<a href="{{project.repo}}">
+										{{project.title}}
+									</a>
+								</li>	
 								{% endif %}
 							{% endfor %}
 							<li role="separator" class="divider"></li>
