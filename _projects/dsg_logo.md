@@ -5,7 +5,8 @@ title: DSG Logo
 alias: dsg_logo
 members: [george_karabelas]
 thumb:
-repo: 
+repo:
 website:
 ---
-Info Pending
+The post-2014 logo of the Decision Systems Group we are using, designed by
+[George Karabelas]({{ site.baseurl }}/team/karabelas-george).
