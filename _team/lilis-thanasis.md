@@ -9,17 +9,17 @@ bio:
 department: Computer Engineering
 avatar:
 website:
-email:
+email: lilis.athanasios@gmail.com
 skype:
-facebook:
+facebook: https://www.facebook.com/lithanj
 twitter:
-linkedin:
-github:
+linkedin: https://www.linkedin.com/in/lithan
+github: https://github.com/lilisath
 gitlab:
 stackoverflow:
 google_plus:
-youtube:
+youtube: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fuser%2FAthanasiosJ&h=WAQFVltlb
 behance:
-instagram:
-flickr:
+instagram: https://www.instagram.com/lithanj/
+flickr: https://www.flickr.com/photos/lithansfotos
 ---
