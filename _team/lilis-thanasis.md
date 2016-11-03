@@ -7,7 +7,7 @@ title: Thanasis Lilis
 nickname: Lithan
 bio:
 department: Computer Engineering
-avatar:
+avatar: http://i.imgur.com/DLfCCIa.jpg
 website:
 email: lilis.athanasios@gmail.com
 skype:
