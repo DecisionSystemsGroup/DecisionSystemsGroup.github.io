@@ -2,7 +2,6 @@
 layout: project
 type: dsg_project
 title: DSG Website
-alias: dsg_website
 members: [john_prantalos]
 thumb: http://i.imgur.com/0xbGdv9.jpg
 repo: https://github.com/DecisionSystemsGroup/DecisionSystemsGroup.github.io

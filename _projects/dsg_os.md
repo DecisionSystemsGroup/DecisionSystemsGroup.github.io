@@ -2,7 +2,6 @@
 layout: project
 type: dsg_project
 title: DSGos
-alias: dsg_os
 members: [kostas_gkotzamanidis, polykarpos_tiftikoglou, john_prantalos]
 thumb: http://i.imgur.com/zFbSvo3.jpg
 repo: https://github.com/DecisionSystemsGroup/DSGos
