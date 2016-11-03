@@ -10,6 +10,7 @@ title: DSG News
 				<h1 class="title">{{ post.title }}</h1>
 				<h4 class="author">
 					by
+					{% assign has_author = false %}
 					{% for member in site.team %}
 						{% for author in post.authors %}
 							{% if member.alias == author %}
