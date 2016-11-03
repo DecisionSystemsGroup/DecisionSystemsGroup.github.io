@@ -15,10 +15,15 @@ layout: public
 			<div class="info">
 				Written on {{ page.date | date: "%B %e, %Y" }},
 				by
+				{% assign has_author = false %}
 				{% for member in site.team %}
 					{% for author in page.authors %}
 						{% if member.alias == author %}
-							{{ member.title }}
+							{% if has_author %}, {% endif %}
+							{% assign has_author = true %}
+							<a href="{{ site.baseurl }}{{member.url}}">
+								{{ member.title }}
+							</a>
 						{% endif %}
 					{% endfor %}
 				{% endfor %}
