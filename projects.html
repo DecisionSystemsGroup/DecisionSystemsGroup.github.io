@@ -3,7 +3,7 @@ layout: page
 title: DSG Projects
 ---
 <div id="dsg_news" class="container">
-	<h1>DSG Projects</h1>
+	<h1>Team Projects</h1>
 	<p>Projects created by DSG Members in the lab.</p>
 	{% for project in site.projects reversed %}
 		{% if project.type == 'dsg_project' %}
@@ -44,7 +44,7 @@ title: DSG Projects
 		Projects created by DSG Members in various events the DSG Team took
 		part.
 	</p>
-	{% for project in site.projects %}
+	{% for project in site.projects reversed %}
 		{% if project.type == 'event' %}
 			<div class="row dsg_project"
 				{% if project.thumb %}
@@ -82,7 +82,7 @@ title: DSG Projects
 	<p>
 		Theses and papers of various students, not necessarily DSG members.
 	</p>
-	{% for project in site.projects %}
+	{% for project in site.projects reversed %}
 		{% if project.type == 'thesis' %}
 			<div class="row dsg_project"
 				{% if project.thumb %}

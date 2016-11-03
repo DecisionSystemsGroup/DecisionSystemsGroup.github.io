@@ -124,22 +124,34 @@
 		}
 	}
 }
-.dsg_project{
-	background-color: rgba(35, 35, 35, 1);
-	background-position: center;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	color: rgba(230, 230, 230, 1);
-	margin: 15px 0px;
-	.glass{
-		padding: 25px;
-		background-color: rgba(35, 35, 35, 0.9);
-	}
-}
 #dsg_project{
 	.title{
 		font-size: 50px;
 		font-weight: 700;
+	}
+}
+#dsg_projects{
+	h1{
+		font-size: 45px;
+		font-weight: 700;
+	}
+	p{
+		font-size: 20px;
+	}
+	.dsg_project{
+		background-color: rgba(35, 35, 35, 1);
+		background-position: center;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		color: rgba(230, 230, 230, 1);
+		margin: 15px 0px;
+		p{
+			font-size: 16px;
+		}
+		.glass{
+			padding: 25px;
+			background-color: rgba(35, 35, 35, 0.9);
+		}
 	}
 }
 #dsg_project_members{
