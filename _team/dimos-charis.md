@@ -8,7 +8,6 @@ nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [jekyll_editor, is_this_licensed]
 website:
 email: dharris.hd@gmail.com
 skype:

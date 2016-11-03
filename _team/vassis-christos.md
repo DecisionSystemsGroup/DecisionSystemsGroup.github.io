@@ -8,7 +8,6 @@ nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [through_equations_physics_101]
 website:
 email:
 skype:

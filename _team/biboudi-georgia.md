@@ -8,7 +8,6 @@ nickname:
 bio:
 department: Computer Engineering
 avatar: http://i.imgur.com/97564N6.jpg
-projects: []
 website:
 email: gbiboudi@teilam.gr
 skype:

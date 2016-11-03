@@ -8,7 +8,6 @@ nickname: Barbe
 bio: Software Engineer
 department: Computer Engineering
 avatar: http://i.imgur.com/hEKDjUj.jpg
-projects: []
 website:
 email: spyrosbarbetakis@yahoo.com
 skype:

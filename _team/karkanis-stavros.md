@@ -8,7 +8,6 @@ nickname:
 bio:
 department: Computer Engineering
 avatar: http://i.imgur.com/sYFg7rM.jpg
-projects:
 website: http://karkanis.gr/
 email: sk@teilam.gr
 skype:

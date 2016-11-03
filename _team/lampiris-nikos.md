@@ -8,7 +8,6 @@ nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [energy_consumption_measurements_and_management]
 website:
 email:
 skype:

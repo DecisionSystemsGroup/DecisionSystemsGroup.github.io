@@ -8,7 +8,6 @@ nickname: Admax
 bio:
 department: Computer Engineering
 avatar:
-projects: [daam, is_this_licensed]
 website:
 email: gordonfreeman3773@hotmail.com
 skype: Stavros371

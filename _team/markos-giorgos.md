@@ -8,7 +8,6 @@ nickname: GxMarkos
 bio:
 department: Computer Engineering
 avatar: http://i.imgur.com/CH88fIz.jpg
-projects: [rc_remote_control, cellphone_tracker, wireLess_pir_alarm_system]
 website:
 email: gxmarkos93@gmail.com
 skype:

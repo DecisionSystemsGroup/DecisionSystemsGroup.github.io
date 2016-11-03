@@ -8,7 +8,6 @@ nickname:
 bio:
 department: Computer Engineering
 avatar: http://i.imgur.com/SdDGrZP.jpg
-projects:
 website:
 email:
 skype:

@@ -8,7 +8,6 @@ nickname:
 bio:
 department: Electronic Engineering
 avatar: http://i.imgur.com/JNX4j2e.jpg
-projects: [dsg_os]
 website:
 email: kgkotzamanidis@teilam.gr
 skype:

@@ -8,7 +8,6 @@ nickname:
 bio:
 department: Electronic Engineering
 avatar:
-projects: [v1]
 website:
 email:
 skype:

@@ -8,7 +8,6 @@ nickname:
 bio:
 department: Computer Engineering
 avatar:
-projects: [image_processing]
 website:
 email:
 skype:
