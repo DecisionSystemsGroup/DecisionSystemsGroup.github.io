@@ -48,51 +48,13 @@
 							DSG Repos <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
-							<li>
-								<a href="https://github.com/DecisionSystemsGroup/DecisionSystemsGroup.github.io">
-									DSG Website
+							{% for project in site.projects %}
+								{% if project.repo %}
+								<a href="{{project.repo}}">
+									{{project.title}}
 								</a>
-							</li>
-							<li>
-								<a href="https://github.com/DecisionSystemsGroup/jekyll-editor">
-									Jekyll Editor
-								</a>
-							</li>
-							<li>
-								<a href="https://github.com/DecisionSystemsGroup/eco-driving-analysis">
-									Eco Driving Analysis
-								</a>
-							</li>
-							<li>
-								<a href="https://github.com/DecisionSystemsGroup/crowdhackathon-insurance">
-									DaaM - Crowdhackathon #insurance
-								</a>
-							</li>
-							<li>
-								<a href="https://github.com/DecisionSystemsGroup/RFiD-Attendance-Tracking">
-									RFiD Attendance Tracking
-								</a>
-							</li>
-							<li>
-								<a href="https://github.com/DecisionSystemsGroup/isThisLicensed">
-									isThisLicensed
-								</a>
-							</li>
-							<li>
-								<a href="https://github.com/DecisionSystemsGroup/DSGos">
-									DSGos
-								</a>
-							</li>
-							<li>
-								<a href="https://github.com/DecisionSystemsGroup/BattleHack2015">
-									Food 4 Charity - Battlehack Athens 2015
-								</a>
-							</li>
-							<li>
-								<a href="https://github.com/DecisionSystemsGroup/pattern-tracking-IP-camera">
-									Pattern Tracking IP Camera
-								</a>
-							</li>
+								{% endif %}
+							{% endfor %}
 							<li role="separator" class="divider"></li>
 							<li>
 								<a href="https://github.com/DecisionSystemsGroup/workshop-jQuery">
