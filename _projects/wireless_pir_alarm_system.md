@@ -6,5 +6,13 @@ members: [giorgos_markos]
 thumb:
 repo:
 website:
+videos:
 ---
-Info Pending
+A hardware project that detects movement in an area and notificates a remote or
+local server with messages send over the mqtt protocol.
+
+The project is built using:
+
+* Arduino Uno
+* Ethernet shield
+* PIR Sensor
