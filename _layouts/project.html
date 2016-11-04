@@ -17,6 +17,18 @@ layout: public
 	<div id="dsg_project" class="row">
 		{{ content }}
 	</div>
+	{% if page.images %}
+		<div class="row">
+			<h1 class="text-center">Project Images</h1>
+		</div>
+	{% endif %}
+	{% for image in page.images %}
+		<blockquote class="imgur-embed-pub" lang="en" data-id="{{image}}">
+			<a href="//imgur.com/{{image}}"></a>
+		</blockquote>
+		<script async src="//s.imgur.com/min/embed.js" charset="utf-8">
+		</script>
+	{% endfor %}
 	{% if page.videos %}
 		<div class="row">
 			<h1 class="text-center">Project Videos</h1>
