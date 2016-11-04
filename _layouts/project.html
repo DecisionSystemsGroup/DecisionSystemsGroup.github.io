@@ -17,6 +17,21 @@ layout: public
 	<div id="dsg_project" class="row">
 		{{ content }}
 	</div>
+	{% if page.videos %}
+		<div class="row">
+			<h1>Videos</h1>
+		</div>
+	{% endif %}	
+	{% for video in page.videos %}
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" allowfullscreen
+						src="https://www.youtube.com/embed/{{video}}" ></iframe>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
 	<div id="dsg_project_members" class="row">
 		<h2 class="title">Project Members</h2>
 		{% for project_member in page.members %}
