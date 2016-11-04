@@ -12,6 +12,7 @@ GSM plug is a normal plug but with a great advantage: you can power it on by
 sending an SMS.
 
 How does it work :
+
 * GSM-plug is an independent controller which can be guided through a GSM
 network available.
 * It is based on gsm-shield for arduino which accepts short messages (SMS).
