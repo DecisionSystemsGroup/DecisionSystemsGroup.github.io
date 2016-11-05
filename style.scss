@@ -303,6 +303,7 @@ footer{
 	.imgur-image{
 		background-size: auto 100%;
 		background-position: center;
+		border: 1px solid rgba(33, 33, 33, .1);
 		@media (min-width: $screen-xs-min) {
 			min-height: 360.5px
 		}
@@ -315,6 +316,9 @@ footer{
 		@media (min-width: $screen-lg-min) {
 			min-height: 282.5px
 		}
+	}
+	.imgur-image:hover{
+		background-size: auto 105%;
 	}
 }
 .wrapper_600{
