@@ -25,7 +25,9 @@ see below:
 ![first_attempt](http://i.imgur.com/N4iM5X7.jpg)
 
 George made some more attempts:
+
 ![second_attempt](http://i.imgur.com/KxSZABg.jpg)
+
 ![third_attempt](http://i.imgur.com/ssD7urU.jpg)
 
 The team took notes and after some days we concluded on how we believed the
