@@ -3,7 +3,7 @@ layout: project
 type: dsg_project
 title: RC Remote Control Car Via GSM Network
 members: [giorgos_markos]
-thumb:
+thumb: http://i.imgur.com/9EKJ6ot.jpg
 repo:
 website:
 videos:
