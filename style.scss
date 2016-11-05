@@ -303,7 +303,7 @@ footer{
 	.imgur-image{
 		background-size: auto 100%;
 		background-position: center;
-		border: 1px solid rgba(33, 33, 33, .1);
+		border: 3px solid rgba(33, 33, 33, 0.4);
 		@media (min-width: $screen-xs-min) {
 			min-height: 360.5px
 		}
