@@ -125,7 +125,10 @@
 	}
 }
 #dsg_project{
-	font-size: 18px;
+	font-size: 18px;	
+	img{
+		width: 80%;
+	}
 }
 #dsg_projects{
 	h1{
@@ -296,9 +299,6 @@ footer{
 	.logo:hover{
 		opacity: 0.8;
 	}
-}
-img{
-	width: 80%;
 }
 .imgur-container{
 	cursor: pointer;
