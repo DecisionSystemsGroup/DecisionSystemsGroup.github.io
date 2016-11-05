@@ -13,6 +13,7 @@ A prototype application that enables a user to control a automobile via
 messages delivered to the car-client via the GSM Network.
 
 Hardware used:
+
 * Arduino UNO
 * Sim900 GSM shield
 * Battery pack
