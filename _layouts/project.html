@@ -19,13 +19,13 @@ layout: public
 	</div>
 	{% if page.images %}
 		<div class="row">
-			<h1 class="text-center">Project Images</h1>
+			<h1>Project Images</h1>
 		</div>
 		<div class="row">
-			{{ assign image_counter = 1 }}
+			{% assign image_counter = 1 %}
 			{% for image in page.images %}
 				<a data-toggle="modal" data-target="#img_{{image_counter}}">
-					<div class="col-md-3"
+					<div class="col-md-3 imgur-container"
 						style="background-image:url('https://imgur.com/{{image}}')">
 					</div>
 				</a>
@@ -60,7 +60,7 @@ layout: public
 		</div>
 	{% endif %}
 	<div id="dsg_project_members" class="row">
-		<h2 class="title">Project Members</h2>
+		<h1 class="title">Project Members</h1	>
 		{% for project_member in page.members %}
 			{% for site_member in site.team %}
 				{% if site_member.alias == project_member %}
