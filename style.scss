@@ -299,22 +299,22 @@ footer{
 }
 .imgur-container{
 	cursor: pointer;
-	@media (min-width: $screen-xs-min) {
-		min-height: 370.5px
-	}
-	@media (min-width: $screen-sm-min) {
-		min-height: 250px
-	}
-	@media (min-width: $screen-md-min) {
-		min-height: 242.5px
-	}
-	@media (min-width: $screen-lg-min) {
-		min-height: 292.5px
-	}
 	padding: 5px;
 	.imgur-image{
 		background-size: auto 100%;
 		background-position: center;
+		@media (min-width: $screen-xs-min) {
+			min-height: 360.5px
+		}
+		@media (min-width: $screen-sm-min) {
+			min-height: 240px
+		}
+		@media (min-width: $screen-md-min) {
+			min-height: 232.5px
+		}
+		@media (min-width: $screen-lg-min) {
+			min-height: 282.5px
+		}
 	}
 }
 .wrapper_600{
