@@ -298,8 +298,7 @@ footer{
 	}
 }
 .imgur-container{
-	background-size: auto 100%;
-	background-position: center;
+	cursor: pointer;
 	@media (min-width: $screen-xs-min) {
 		min-height: 370.5px
 	}
@@ -311,6 +310,11 @@ footer{
 	}
 	@media (min-width: $screen-lg-min) {
 		min-height: 292.5px
+	}
+	padding: 5px;
+	.imgur-image{
+		background-size: auto 100%;
+		background-position: center;
 	}
 }
 .wrapper_600{
