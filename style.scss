@@ -297,6 +297,22 @@ footer{
 		opacity: 0.8;
 	}
 }
+.imgur-container{
+	background-size: auto 100%;
+	background-position: center;
+	@media (min-width: $screen-xs-min) {
+		min-height: 370.5px
+	}
+	@media (min-width: $screen-sm-min) {
+		min-height: 250px
+	}
+	@media (min-width: $screen-md-min) {
+		min-height: 242.5px
+	}
+	@media (min-width: $screen-lg-min) {
+		min-height: 292.5px
+	}
+}
 .wrapper_600{
 	max-height: 600px;
 	overflow-y: scroll;
