@@ -23,32 +23,39 @@ layout: public
 		</div>
 		<div class="row">
 			{% for image in page.images %}
-				<div class="col-md-3">
-					<blockquote class="imgur-embed-pub" lang="en"
-						data-id="{{image}}">
-						<a href="//imgur.com/{{image}}"></a>
-					</blockquote>
-					<script async src="//s.imgur.com/min/embed.js"
-						charset="utf-8"></script>
+				<a data-toggle="modal" data-target="#{{image}}">
+					<div class="col-md-3"
+						style="background-image:url('https://imgur.com/{{image}}')">
+					</div>
+				</a>
+				<div class="modal fade" id="{{image}}" tabindex="-1" role="dialog">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-body">
+								<img src="https://imgur.com/{{image}}"
+									alt="{{image}}" />
+							</div>
+						</div>
+					</div>
 				</div>
 			{% endfor %}
 		</div>
 	{% endif %}
 	{% if page.videos %}
 		<div class="row">
-			<h1 class="text-center">Project Videos</h1>
+			<h1>Project Videos</h1>
 		</div>
-	{% endif %}
-	{% for video in page.videos %}
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
+			{% for video in page.videos %}
+			<div class="col-md-6">
 				<div class="embed-responsive embed-responsive-16by9">
 					<iframe class="embed-responsive-item" allowfullscreen
 						src="https://www.youtube.com/embed/{{video}}" ></iframe>
 				</div>
 			</div>
+			{% endfor %}
 		</div>
-	{% endfor %}
+	{% endif %}
 	<div id="dsg_project_members" class="row">
 		<h2 class="title">Project Members</h2>
 		{% for project_member in page.members %}

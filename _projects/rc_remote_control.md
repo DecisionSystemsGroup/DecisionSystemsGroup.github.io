@@ -7,7 +7,7 @@ thumb:
 repo:
 website:
 videos:
-images: [POcRnQy, 9X4i6uk]
+images: [POcRnQy.jpg, 9X4i6uk.jpg]
 ---
 A prototype application that enables a user to control a automobile via
 messages delivered to the car-client via the GSM Network.
