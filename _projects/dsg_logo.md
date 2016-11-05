@@ -3,7 +3,7 @@ layout: project
 type: dsg_project
 title: DSG Logo
 members: [george_karabelas]
-thumb:
+thumb: http://i.imgur.com/bPfd1Jl.jpg
 repo:
 website:
 videos:
