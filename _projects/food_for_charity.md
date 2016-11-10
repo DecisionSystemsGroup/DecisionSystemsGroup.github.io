@@ -1,5 +1,6 @@
 ---
 layout: project
+status: completed
 type: event
 title: Food4Charity - Battlehack Athens 2015
 members: [john_prantalos, polykarpos_tiftikoglou, stavros_tsourlidakis]

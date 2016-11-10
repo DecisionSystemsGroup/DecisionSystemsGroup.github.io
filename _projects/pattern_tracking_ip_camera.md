@@ -1,5 +1,6 @@
 ---
 layout: project
+status: completed
 type: dsg_project
 title: Pattern Tracking IP Camera
 members: [mybareq_hoxha]

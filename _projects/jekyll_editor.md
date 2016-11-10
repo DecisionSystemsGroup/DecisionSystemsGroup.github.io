@@ -1,5 +1,6 @@
 ---
 layout: project
+status: active
 type: dsg_project
 title: Jekyll Editor
 members: [charis_dimos, stavros_tsourlidakis]

@@ -1,5 +1,6 @@
 ---
 layout: project
+status: completed
 type: dsg_project
 title: RFiD Attedance Tracking
 members: [thanasis_lilis]

@@ -1,5 +1,6 @@
 ---
 layout: project
+status: active
 type: dsg_project
 title: DSG Website
 members: [john_prantalos]

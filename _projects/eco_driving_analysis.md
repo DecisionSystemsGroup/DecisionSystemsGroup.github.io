@@ -1,5 +1,6 @@
 ---
 layout: project
+status: active
 type: thesis
 title: Eco Driving Analysis
 members: [john_prantalos, stavros_tsourlidakis]

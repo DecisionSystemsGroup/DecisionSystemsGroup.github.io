@@ -1,5 +1,6 @@
 ---
 layout: project
+status: completed
 type: dsg_project
 title: DSG Logo
 members: [george_karabelas]

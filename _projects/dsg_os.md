@@ -1,5 +1,6 @@
 ---
 layout: project
+status: canceled
 type: dsg_project
 title: DSGos
 members: [kostas_gkotzamanidis, polykarpos_tiftikoglou, john_prantalos]

@@ -1,5 +1,6 @@
 ---
 layout: project
+status: completed
 type: dsg_project
 title: GSM Plug
 members: [dimitris_barmpakos]

@@ -1,5 +1,6 @@
 ---
 layout: project
+status: completed
 type: dsg_project
 title: Vehicles Plate Recognition
 members: [stavros_tsourlidakis, philip_dinenis]
@@ -19,11 +20,11 @@ The whole process is consisted by 3 parts:
 * Convert the image to grayscale
 * Apply a [sobel](https://en.wikipedia.org/wiki/Sobel_operator) mask for later edge detection
 * Convert the image to binary by [Thresholding](https://en.wikipedia.org/wiki/Thresholding_%28image_processing%29)
-* Calculate [edges](https://en.wikipedia.org/wiki/Edge_detection) 
+* Calculate [edges](https://en.wikipedia.org/wiki/Edge_detection)
 * Use the edge to locate the plate
 
 
-![image edges](http://i.imgur.com/Vw6icVFm.png) 
+![image edges](http://i.imgur.com/Vw6icVFm.png)
 
 
 ### 2. Extracting each character as a separate part of the photograph
