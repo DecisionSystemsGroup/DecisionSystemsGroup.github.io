@@ -10,4 +10,3 @@ website:
 videos:
 images:
 ---
-Info Pending
