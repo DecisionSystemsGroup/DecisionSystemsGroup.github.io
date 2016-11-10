@@ -7,6 +7,8 @@ members: [thanasis_lilis]
 thumb:
 repo: https://github.com/DecisionSystemsGroup/RFiD-Attendance-Tracking
 website:
+videos:
+images:
 ---
 A usefull Attendance Tracking System built with Arduino that utilizes RFID
 for authentication.

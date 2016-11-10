@@ -7,6 +7,8 @@ members: [christos_vassis, george_karabelas, theodore_kounas]
 thumb: http://i.imgur.com/9zG9nzi.jpg
 repo:
 website:
+videos:
+images:
 ---
 The goal of this project is to combine entertainment, learning and increase
 problem-solving skills of the player/student through a series of riddles and

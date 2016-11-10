@@ -7,6 +7,8 @@ members: [stavros_tsourlidakis, philip_dinenis]
 thumb: http://i.imgur.com/Vw6icVF.png
 repo:
 website:
+videos:
+images:
 ---
 A collection of image processing algorithms that aim to extract the license plate from a car's photograph taken at parking lots/tolls etc.
 

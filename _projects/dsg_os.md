@@ -7,6 +7,8 @@ members: [kostas_gkotzamanidis, polykarpos_tiftikoglou, john_prantalos]
 thumb: http://i.imgur.com/zFbSvo3.jpg
 repo: https://github.com/DecisionSystemsGroup/DSGos
 website: http://dsg.teiste.gr/DSGos/
+videos:
+images:
 ---
 DSGos is an experiment from some of the [DSG](http://dsg.teiste.gr/) members. It
 is an unofficial project and will remain unofficial until we have something

@@ -7,6 +7,8 @@ members: [john_prantalos]
 thumb: http://i.imgur.com/0xbGdv9.jpg
 repo: https://github.com/DecisionSystemsGroup/DecisionSystemsGroup.github.io
 website: http://dsg.teiste.gr/
+videos:
+images:
 ---
 Build on top of Jekyll and hosted on Github Pages the DSG website is a simple
 blog-aware static site, where you can find all the info you want about the

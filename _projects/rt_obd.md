@@ -7,5 +7,7 @@ members: [dimitris_barmpakos]
 thumb:
 repo:
 website:
+videos:
+images:
 ---
 Info Pending

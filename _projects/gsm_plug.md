@@ -8,6 +8,7 @@ thumb:
 repo:
 website:
 videos: [1Jxmq0g5kk4]
+images:
 ---
 GSM plug is a normal plug but with a great advantage: you can power it on by
 sending an SMS.

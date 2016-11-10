@@ -7,6 +7,8 @@ members: [mybareq_hoxha]
 thumb:
 repo: https://github.com/DecisionSystemsGroup/pattern-tracking-IP-camera
 website:
+videos:
+images:
 ---
 Pattern Tracking IP-camera is a project created by Mybareq Hoxha, currently a student at Tecnological Educational Institute of central Greece.
 

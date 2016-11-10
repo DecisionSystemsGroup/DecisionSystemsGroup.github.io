@@ -8,6 +8,7 @@ thumb:
 repo:
 website:
 videos:
+images:
 ---
 A hardware project that detects movement in an area and notificates a remote or
 local server with messages send over the mqtt protocol.

@@ -7,5 +7,7 @@ members: [giorgos_konstantoulakis]
 thumb:
 repo:
 website: http://imageprocessing.gr/
+videos:
+images:
 ---
 Info Pending

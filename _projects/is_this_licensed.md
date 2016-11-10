@@ -7,5 +7,7 @@ members: [charis_dimos, john_prantalos, stavros_oikonomidis, stavros_tsourlidaki
 thumb:
 repo: https://github.com/DecisionSystemsGroup/isThisLicensed
 website:
+videos:
+images:
 ---
 Info Pending
