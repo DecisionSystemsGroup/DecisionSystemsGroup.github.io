@@ -10,4 +10,5 @@ website: http://eco.hermes-v.com/
 videos:
 images:
 ---
-Info Pending
+The thesis is currently under development/research. More information will be
+published when it will be completed
