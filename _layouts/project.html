@@ -31,11 +31,9 @@ layout: public
 			{% endif %}
 			{% if page.repo %}
 				<div class="col-md-4
-					{% if page.website %}
-						col-md-offset-2
-					{% else %}
+					{% if page.website == false %}
 						col-md-offset-4
-					{% endif %}
+					{% else %}
 				">
 					<a role="button" class="btn btn-warning btn-block"
 						href="{{page.repo}}">
