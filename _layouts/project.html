@@ -15,20 +15,34 @@ layout: public
 		</div>
 	{% endif %}
 		<div id="#dsg_project_links" class="row">
-			<div class="col-md-3 col-md-offset-3">
-				{% if page.website %}
-					<button type="button" class="btn btn-success btn-block">
+			{% if page.website %}
+				<div class="col-md-4
+					{% if page.repo %}
+						col-md-offset-2
+					{% else %}
+						col-md-offset-4
+					{% endif %}
+				">
+					<a role="button" class="btn btn-success btn-block"
+						href="{{page.website}}">
 						Website
-					</button>
-				{% endif %}
-			</div>
-			<div class="col-md-3">
-				{% if page.repo %}
-					<button type="button" class="btn btn-warning btn-block">
+					</a>
+				</div>
+			{% endif %}
+			{% if page.repo %}
+				<div class="col-md-4
+					{% if page.website %}
+						col-md-offset-2
+					{% else %}
+						col-md-offset-4
+					{% endif %}
+				">
+					<a role="button" class="btn btn-warning btn-block"
+						href="{{page.repo}}">
 						Repo
-					</button>
-				{% endif %}
-			</div>
+					</a>
+				</div>
+			{% endif %}
 		</div>
 	<div id="dsg_project" class="row">
 		{{ content }}
