@@ -49,7 +49,19 @@
 		}
 	}
 	#meet_the_team{
-		background-image: url('images/meet_the_team.jpg');
+		@media (min-width: $screen-xs-min) {
+			background-color: rgba(33, 33, 33, .9);
+		}
+		@media (min-width: $screen-sm-min) {
+			background-color: rgba(33, 33, 33, .9);
+		}
+		@media (min-width: $screen-md-min) {
+			background-image: url('images/meet_the_team.jpg');
+		}
+		@media (min-width: $screen-lg-min) {
+			background-image: url('images/meet_the_team.jpg');
+		}
+
 	}
 	#whats_new{
 		background-image: url('images/whats_new.jpg');
