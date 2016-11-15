@@ -19,7 +19,7 @@ avatar: https://raw.githubusercontent.com/DecisionSystemsGroup/DecisionSystemsGr
 disqus: dsgteiste
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-60493766-1
 
 global_alert:
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
