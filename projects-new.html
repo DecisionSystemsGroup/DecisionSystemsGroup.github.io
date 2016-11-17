@@ -9,6 +9,19 @@ permalink: /projects/new
 	<div class="row">
 		{% for project in site.projects %}
 			<div class="col-md-2 col-sm-4 col-xs-6 project-new">
+				{% if project.status == 'active' %}
+					<div class="text-center status-active">
+						Active
+					</div>
+				{% else if project.status == 'completed' %}
+					<div class="text-center status-completed">
+						Completed
+					</div>
+				{% else if project.status == 'canceled'  %}
+					<div class="text-center status-canceled">
+						Canceled
+					</div>
+				{% endif%}
 				<div class="thumb"
 					{% if project.thumb %}
 						style="background-image:url('{{project.thumb}}')"
@@ -17,15 +30,7 @@ permalink: /projects/new
 					{% endif %}
 				>
 				</div>
-				<div class="info
-					{% if project.status == 'active' %}
-						active
-					{% else if project.status == 'completed' %}
-						completed
-					{% else if project.status == 'canceled' %}
-						canceled
-					{% endif %}
-				">
+				<div class="info">
 					<h2>{{ project.title }}</h2>
 					{{ project.excerpt }}
 				</div>
@@ -49,5 +54,5 @@ permalink: /projects/new
 				</div>
 			</div>
 		{% endfor %}
-	</div>
+	</div>yy
 </div>
