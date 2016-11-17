@@ -17,7 +17,15 @@ permalink: /projects/new
 					{% endif %}
 				>
 				</div>
-				<div class="info">
+				<div class="info
+					{% if project.status == 'active' %}
+						active
+					{% else if project.status == 'completed' %}
+						completed
+					{% else if project.status == 'canceled' %}
+						canceled
+					{% endif %}
+				">
 					<h2>{{ project.title }}</h2>
 					{{ project.excerpt }}
 				</div>
