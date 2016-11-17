@@ -6,138 +6,8 @@ permalink: /projects/new
 <div id="dsg_projects" class="container">
 	<h1>Team Projects</h1>
 	<p>Projects created by DSG Members in the lab.</p>
-	<div id="active" class="row">
-		<h2>Currently Active Projects</h2>
+	<div class="row">
 		{% for project in site.projects %}
-			{% if project.type == 'dsg_project' %}
-				{% if project.status == 'active'%}
-				<div class="col-md-2 col-sm-4 col-xs-6 project-new">
-					<div class="thumb"
-						{% if project.thumb %}
-							style="background-image:url('{{project.thumb}}')"
-						{% else %}
-							style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
-						{% endif %}
-					>
-					</div>
-					<div class="info">
-						<h2>{{ project.title }}</h2>
-						{{ project.excerpt }}
-					</div>
-					<div class="buttons">
-						<a class="btn btn-danger btn-block"
-							href="{{ site.url }}{{ project.url }}">
-							More
-						</a>
-						{% if project.repo %}
-							<a class="btn btn-warning btn-block" role="button"
-								href="{{ project.repo }}">
-								Repo
-							</a>
-						{% endif %}
-						{% if project.website %}
-							<a class="btn btn-success btn-block" role="button"
-								href="{{ project.website }}">
-								Website
-							</a>
-						{% endif %}
-					</div>
-				</div>
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-	</div>
-	<div id="completed" class="row">
-		<h2>Completed Projects</h2>
-		{% for project in site.projects %}
-			{% if project.type == 'dsg_project' %}
-				{% if project.status == 'completed'%}
-				<div class="col-md-2 col-sm-4 col-xs-6 project-new">
-					<div class="thumb"
-						{% if project.thumb %}
-							style="background-image:url('{{project.thumb}}')"
-						{% else %}
-							style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
-						{% endif %}
-					>
-					</div>
-					<div class="info">
-						<h2>{{ project.title }}</h2>
-						{{ project.excerpt }}
-					</div>
-					<div class="buttons">
-						<a class="btn btn-danger btn-block"
-							href="{{ site.url }}{{ project.url }}">
-							More
-						</a>
-						{% if project.repo %}
-							<a class="btn btn-warning btn-block" role="button"
-								href="{{ project.repo }}">
-								Repo
-							</a>
-						{% endif %}
-						{% if project.website %}
-							<a class="btn btn-success btn-block" role="button"
-								href="{{ project.website }}">
-								Website
-							</a>
-						{% endif %}
-					</div>
-				</div>
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-	</div>
-	<div id="canceled" class="row">
-		<h2>Canceled Projects</h2>
-		{% for project in site.projects %}
-			{% if project.type == 'dsg_project' %}
-				{% if project.status == 'canceled'%}
-				<div class="col-md-2 col-sm-4 col-xs-6 project-new">
-					<div class="thumb"
-						{% if project.thumb %}
-							style="background-image:url('{{project.thumb}}')"
-						{% else %}
-							style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
-						{% endif %}
-					>
-					</div>
-					<div class="info">
-						<h2>{{ project.title }}</h2>
-						{{ project.excerpt }}
-					</div>
-					<div class="buttons">
-						<a class="btn btn-danger btn-block"
-							href="{{ site.url }}{{ project.url }}">
-							More
-						</a>
-						{% if project.repo %}
-							<a class="btn btn-warning btn-block" role="button"
-								href="{{ project.repo }}">
-								Repo
-							</a>
-						{% endif %}
-						{% if project.website %}
-							<a class="btn btn-success btn-block" role="button"
-								href="{{ project.website }}">
-								Website
-							</a>
-						{% endif %}
-					</div>
-				</div>
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-	</div>
-
-	<h1>Event Projects</h1>
-	<p>
-		Projects created by DSG Members in various events the DSG Team took
-		part.
-	</p>
-	<div id="event" class="row">
-		{% for project in site.projects %}
-			{% if project.type == 'event' %}
 			<div class="col-md-2 col-sm-4 col-xs-6 project-new">
 				<div class="thumb"
 					{% if project.thumb %}
@@ -147,7 +17,15 @@ permalink: /projects/new
 					{% endif %}
 				>
 				</div>
-				<div class="info">
+				<div class="info
+					{% if project.status == 'active' %}
+						active
+					{% elseif project.status == 'completed' %}
+						completed
+					{% elseif project.status == 'canceled' %}
+						canceled
+					{% endif %}
+				">
 					<h2>{{ project.title }}</h2>
 					{{ project.excerpt }}
 				</div>
@@ -170,50 +48,6 @@ permalink: /projects/new
 					{% endif %}
 				</div>
 			</div>
-			{% endif %}
-		{% endfor %}
-	</div>
-
-	<h1>Theses</h1>
-	<p>
-		Theses and papers of various students, not necessarily DSG members.
-	</p>
-	<div id="event" class="row">
-		{% for project in site.projects %}
-			{% if project.type == 'thesis' %}
-			<div class="col-md-2 col-sm-4 col-xs-6 project-new">
-				<div class="thumb"
-					{% if project.thumb %}
-						style="background-image:url('{{project.thumb}}')"
-					{% else %}
-						style="background-image:url('{{ site.baseurl }}/images/dsg_social.jpg')"
-					{% endif %}
-				>
-				</div>
-				<div class="info">
-					<h2>{{ project.title }}</h2>
-					{{ project.excerpt }}
-				</div>
-				<div class="buttons">
-					<a class="btn btn-danger btn-block"
-						href="{{ site.url }}{{ project.url }}">
-						More
-					</a>
-					{% if project.repo %}
-						<a class="btn btn-warning btn-block" role="button"
-							href="{{ project.repo }}">
-							Repo
-						</a>
-					{% endif %}
-					{% if project.website %}
-						<a class="btn btn-success btn-block" role="button"
-							href="{{ project.website }}">
-							Website
-						</a>
-					{% endif %}
-				</div>
-			</div>
-			{% endif %}
 		{% endfor %}
 	</div>
 </div>
