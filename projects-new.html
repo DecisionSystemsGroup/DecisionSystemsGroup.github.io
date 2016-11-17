@@ -44,10 +44,20 @@ permalink: /projects/new
 							href="{{ project.repo }}">
 							Repo
 						</a>
+					{% else %}
+						<a class="btn btn-warning btn-block btn-xs disabled"
+							role="button">
+							Repo
+						</a>
 					{% endif %}
 					{% if project.website %}
 						<a class="btn btn-success btn-block btn-xs" role="button"
 							href="{{ project.website }}">
+							Website
+						</a>
+					{% else %}
+						<a class="btn btn-success btn-block btn-xs disabled"
+						role="button">
 							Website
 						</a>
 					{% endif %}
