@@ -35,7 +35,7 @@ title: The DSG Team
 		{% for member in site.team %}
 			{% if member.type == 'student' %}
 				{% if member.status == 'active' %}
-					<div class="col-md-3 col-sm-4 col-xs-6 member">
+					<div class="col-md-2 col-sm-4 col-xs-6 member">
 						<div class="avatar"
 							{% if member.avatar %}
 								style="background-image:url('{{member.avatar}}')"
@@ -61,7 +61,7 @@ title: The DSG Team
 		{% for member in site.team %}
 			{% if member.type == 'student' %}
 				{% if member.status == 'legacy' %}
-					<div class="col-md-3 col-sm-4 col-xs-6 member">
+					<div class="col-md-2 col-sm-4 col-xs-6 member">
 						<div class="avatar"
 							{% if member.avatar %}
 								style="background-image:url('{{member.avatar}}')"
@@ -87,7 +87,7 @@ title: The DSG Team
 		{% for member in site.team %}
 			{% if member.type == 'student' %}
 				{% if member.status == 'colleague' %}
-					<div class="col-md-3 col-sm-4 col-xs-6 member">
+					<div class="col-md-2 col-sm-4 col-xs-6 member">
 						<div class="avatar"
 							{% if member.avatar %}
 								style="background-image:url('{{member.avatar}}')"
