@@ -10,15 +10,15 @@ permalink: /projects/new
 		{% for project in site.projects %}
 			<div class="col-md-2 col-sm-4 col-xs-6 project-new">
 				{% if project.status == 'active' %}
-					<div class="text-center status-active">
+					<div class="text-center status active">
 						Active
 					</div>
 				{% else if project.status == 'completed' %}
-					<div class="text-center status-completed">
+					<div class="text-center status completed">
 						Completed
 					</div>
 				{% else if project.status == 'canceled'  %}
-					<div class="text-center status-canceled">
+					<div class="text-center status canceled">
 						Canceled
 					</div>
 				{% endif%}
