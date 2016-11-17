@@ -20,9 +20,9 @@ permalink: /projects/new
 				<div class="info
 					{% if project.status == 'active' %}
 						active
-					{% elseif project.status == 'completed' %}
+					{% else if project.status == 'completed' %}
 						completed
-					{% elseif project.status == 'canceled' %}
+					{% else if project.status == 'canceled' %}
 						canceled
 					{% endif %}
 				">
