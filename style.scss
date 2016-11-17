@@ -170,6 +170,41 @@
 			background-color: rgba(35, 35, 35, 0.9);
 		}
 	}
+	.project-new{
+		padding: 5px;
+		.thumb{
+			background-position: center bottom;
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			@media (min-width: $screen-xs-min) {
+				min-height: 370.5px
+			}
+			@media (min-width: $screen-sm-min) {
+				min-height: 250px
+			}
+			@media (min-width: $screen-md-min) {
+				min-height: 180px
+			}
+			@media (min-width: $screen-lg-min) {
+				min-height: 180px
+			}
+		}
+		.info{
+			background-color: rgba(34, 34, 34, 0.95);
+			color: rgba(230, 230, 230, 1);
+			h2{
+				text-align: center;
+				font-size: 12px;
+				font-weight: 700;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				padding: 20px 5px;
+			}
+			p{
+				font-size: 8px;
+			}
+		}
+	}
 }
 #dsg_project_members{
 	margin-top: 35px;
