@@ -211,15 +211,15 @@
 			font-size: 20px;
 			font-weight: 700;
 			padding: 10px 0px;
-			.active{
-				background-color: rgba(0, 255, 69, 0.95);
-			}
-			.completed{
-				background-color: rgba(0, 178, 255, 0.95);
-			}
-			.canceled{
-				background-color: rgba(255, 0, 0, 0.95);
-			}
+		}
+		.active{
+			background-color: rgba(0, 255, 69, 0.95);
+		}
+		.completed{
+			background-color: rgba(0, 178, 255, 0.95);
+		}
+		.canceled{
+			background-color: rgba(255, 0, 0, 0.95);
 		}
 
 		.buttons{
