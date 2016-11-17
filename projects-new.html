@@ -35,18 +35,18 @@ permalink: /projects/new
 					{{ project.excerpt }}
 				</div>
 				<div class="buttons">
-					<a class="btn btn-danger btn-block"
+					<a class="btn btn-danger btn-block btn-xs"
 						href="{{ site.url }}{{ project.url }}">
 						More
 					</a>
 					{% if project.repo %}
-						<a class="btn btn-warning btn-block" role="button"
+						<a class="btn btn-warning btn-block btn-xs" role="button"
 							href="{{ project.repo }}">
 							Repo
 						</a>
 					{% endif %}
 					{% if project.website %}
-						<a class="btn btn-success btn-block" role="button"
+						<a class="btn btn-success btn-block btn-xs" role="button"
 							href="{{ project.website }}">
 							Website
 						</a>
@@ -54,5 +54,5 @@ permalink: /projects/new
 				</div>
 			</div>
 		{% endfor %}
-	</div>yy
+	</div>
 </div>
