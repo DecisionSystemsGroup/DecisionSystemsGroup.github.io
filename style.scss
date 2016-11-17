@@ -173,8 +173,8 @@
 	.project-new{
 		padding: 5px;
 		.thumb{
-			background-position: center bottom;
-			background-size: 100% auto;
+			background-position: center;
+			background-size: auto 100%;
 			background-repeat: no-repeat;
 			@media (min-width: $screen-xs-min) {
 				min-height: 370.5px
@@ -201,7 +201,7 @@
 				padding: 20px 5px;
 			}
 			p{
-				font-size: 8px;
+				font-size: 10px;
 			}
 		}
 	}
