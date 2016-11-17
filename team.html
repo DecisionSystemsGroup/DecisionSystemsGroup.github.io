@@ -8,6 +8,19 @@ title: The DSG Team
 		{% for member in site.team %}
 			{% if member.type == 'professor' %}
 				<div class="col-md-2 col-sm-4 col-xs-6 member">
+					{% if project.status == 'active' %}
+						<div class="text-center status-active">
+							Active
+						</div>
+					{% else if project.status == 'completed' %}
+						<div class="text-center status-completed">
+							Completed
+						</div>
+					{% else if project.status == 'canceled'  %}
+						<div class="text-center status-canceled">
+							Canceled
+						</div>
+					{% endif%}
 					<div class="avatar"
 						{% if member.avatar %}
 							style="background-image:url('{{member.avatar}}')"
