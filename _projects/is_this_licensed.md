@@ -4,11 +4,11 @@ status: completed
 type: event
 title: Is this licensed - Koding Hacksummit 2016
 members: [charis_dimos, john_prantalos, stavros_oikonomidis, stavros_tsourlidakis, thanasis_lilis, theodore_kounas]
-thumb: http://i.imgur.com/LRDseza.png
+thumb:
 repo: https://github.com/DecisionSystemsGroup/isThisLicensed
 website:
 videos:
-images: http://i.imgur.com/LRDseza.png
+images:
 ---
 A web application for those who want to see if a photo is licensed. Delevoped
 by the DSG team for the Koding Hacksummit 2016 Hackathon.
