@@ -44,7 +44,7 @@ its work or create something from his/her own.
 
 Then [Giorgos]({{ site.baseurl }}/team/markos-giorgos), DSG newest member,
 presented to the audience his
-[RC Remote Control Car Via GSM Network](({{ site.baseurl }}/projects/rc_remote_control/)
+[RC Remote Control Car Via GSM Network]({{ site.baseurl }}/projects/rc_remote_control/)
 project.
 
 For the last minutes, the team members that were present went to the stage
