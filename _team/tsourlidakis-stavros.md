@@ -8,7 +8,7 @@ nickname: stsourlidakis
 bio:
 department: Computer Engineering
 avatar: http://i.imgur.com/PgfkK0O.jpg
-website: http://users.teilam.gr/~stsourlidakis/
+website: https://stsourlidakis.com
 email: s.tsourlidakis@hotmail.com
 skype:
 facebook:
